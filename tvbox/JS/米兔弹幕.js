@@ -148,7 +148,7 @@ globalThis.jxx = function(id, url, name, juji) {
     } catch {
         return {
             parse: 0,
-            url: '失败了呢滚吧',
+            url: '',
             jx: 0
         };
     }
