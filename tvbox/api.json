@@ -261,6 +261,19 @@
             }
         },
         {
+            "key": "哔嘀弹幕",
+            "name": "哔嘀｜弹幕",
+            "type": 3,
+            "api": "csp_Bdys",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": {
+                "site": "https://www.xlys01.com",
+                "danmu": true
+            }
+        },
+        {
             "key": "玩偶弹幕",
             "name": "玩偶哥哥｜4K弹幕",
             "type": 3,
