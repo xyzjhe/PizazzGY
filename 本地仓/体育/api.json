@@ -4,29 +4,6 @@
     "logo": "http://127.0.0.1:9978/file/TVBox/logo.png",
     "sites": [
         {
-            "key": "企鹅体育",
-            "name": "企鹅｜体育",
-            "type": 3,
-            "api": "csp_XPath",
-            "searchable": 0,
-            "quickSearch": 0,
-            "filterable": 0,
-            "style": {
-                "type": "list"
-            },
-            "ext": "./XPath/企鹅体育.json"
-        },
-        {
-            "key": "武享吧",
-            "name": "武享吧｜格斗",
-            "type": 3,
-            "api": "./JS/drpy2.min.js",
-            "style": {
-                "type": "list"
-            },
-            "ext": "./JS/武享吧.js"
-        },
-        {
             "key": "88看球",
             "name": "88｜看球",
             "type": 3,
@@ -55,6 +32,16 @@
                 "type": "list"
             },
             "ext": "./JS/360吧.js"
+        },
+        {
+            "key": "武享吧",
+            "name": "武享吧｜格斗",
+            "type": 3,
+            "api": "./JS/drpy2.min.js",
+            "style": {
+                "type": "list"
+            },
+            "ext": "./JS/武享吧.js"
         },
         {
             "key": "JRKAN直播",

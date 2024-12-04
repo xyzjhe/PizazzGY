@@ -13,13 +13,6 @@
             "jar": "http://127.0.0.1:9978/file/TVBoxOSC/本地仓/wex.jar"
         },
         {
-            "key": "播客",
-            "name": "播客｜综合",
-            "type": 3,
-            "api": "./js/drpy2.min.js",
-            "ext": "./js/播客.js"
-        },
-        {
             "key": "配置中心",
             "name": "配置｜中心",
             "type": 3,
@@ -31,6 +24,13 @@
                 "type": "rect",
                 "ratio": 1.597
             }
+        },
+        {
+            "key": "播客",
+            "name": "播客｜综合",
+            "type": 3,
+            "api": "./js/drpy2.min.js",
+            "ext": "./js/播客.js"
         },
         {
             "key": "呦呦DJ",
