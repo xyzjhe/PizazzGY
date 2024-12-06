@@ -268,13 +268,6 @@
             "filterable": 0
         },
         {
-            "key": "天堂短剧",
-            "name": "天堂｜短剧",
-            "type": 3,
-            "api": "./JS/drpy2.min.js",
-            "ext": "./JS/天堂短剧.js"
-        },
-        {
             "key": "爱你短剧",
             "name": "爱你｜短剧",
             "type": 3,
