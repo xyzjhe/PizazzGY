@@ -323,6 +323,15 @@
             "jar": "http://127.0.0.1:9978/file/TVBoxOSC/本地仓/wex.jar"
         },
         {
+            "key": "盘他",
+            "name": "盘他｜4K‍",
+            "type": 3,
+            "api": "csp_WexYDpanta",
+            "searchable": 1,
+            "changeable": 1,
+            "jar": "http://127.0.0.1:9978/file/TVBoxOSC/本地仓/wex.jar"
+        },
+        {
             "key": "Emby",
             "name": "Emby｜4K",
             "type": 3,
