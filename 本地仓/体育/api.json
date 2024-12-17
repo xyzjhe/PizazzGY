@@ -117,49 +117,55 @@
         {
             "name": "直播",
             "type": 0,
-            "url": "http://127.0.0.1:9978/proxy?do=live&url=https://tv.iill.top/m3u/Gather",
-            "playerType": 2
+            "url": "http://127.0.0.1:9978/proxy?do=live&u=Gather",
+            "playerType": 2,
+            "timeout": 10
         },
         {
             "name": "范明明",
             "type": 0,
             "url": "https://live.fanmingming.com/tv/m3u/ipv6.m3u",
-            "playerType": 2
+            "playerType": 2,
+            "timeout": 10
         },
         {
             "name": "肥羊国内直播",
-            "type": 0,
-            "url": "http://127.0.0.1:9978/proxy?do=live&url=http://127.0.0.1:35345/tv.m3u",
-            "ua": "okhttp/3.15"
-        },
-        {
-            "name": "肥羊TPTV",
-            "type": 0,
-            "url": "http://127.0.0.1:9978/proxy?do=live&url=http://127.0.0.1:35345/tptv.m3u",
+            "type": 3,
+            "api": "csp_Feiyang",
+            "url": "tv.m3u",
+            "timeout": 10,
             "ua": "okhttp/3.15"
         },
         {
             "name": "肥羊虎牙一起看",
-            "type": 0,
-            "url": "http://127.0.0.1:9978/proxy?do=live&url=http://127.0.0.1:35345/huyayqk.m3u",
+            "type": 3,
+            "api": "csp_Feiyang",
+            "url": "huyayqk.m3u",
+            "timeout": 10,
             "ua": "okhttp/3.15"
         },
         {
             "name": "肥羊B站直播",
-            "type": 0,
-            "url": "http://127.0.0.1:9978/proxy?do=live&url=http://127.0.0.1:35345/bililive.m3u",
+            "type": 3,
+            "api": "csp_Feiyang",
+            "url": "bililive.m3u",
+            "timeout": 10,
             "ua": "okhttp/3.15"
         },
         {
             "name": "肥羊斗鱼一起看",
-            "type": 0,
-            "url": "http://127.0.0.1:9978/proxy?do=live&url=http://127.0.0.1:35345/douyuyqk.m3u",
+            "type": 3,
+            "api": "csp_Feiyang",
+            "url": "douyuyqk.m3u",
+            "timeout": 10,
             "ua": "okhttp/3.15"
         },
         {
             "name": "肥羊YY轮播",
-            "type": 0,
-            "url": "http://127.0.0.1:9978/proxy?do=live&url=http://127.0.0.1:35345/yylunbo.m3u",
+            "type": 3,
+            "api": "csp_Feiyang",
+            "url": "yylunbo.m3u",
+            "timeout": 10,
             "ua": "okhttp/3.15"
         }
     ],

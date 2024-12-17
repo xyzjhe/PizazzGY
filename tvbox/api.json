@@ -71,19 +71,21 @@
             "quickSearch": 1,
             "filterable": 1,
             "ext": {
-                "danmu": true
+                "danmu": true,
+                "site": "aHR0cDovL29wLnlzZHFqcy5jbg=="
             }
         },
         {
             "key": "热播弹幕",
             "name": "热播｜弹幕",
             "type": 3,
-            "api": "csp_ReBo",
+            "api": "csp_TianTian",
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
             "ext": {
-                "danmu": true
+                "danmu": true,
+                "site": "aHR0cDovL3YucmJvdHYuY24="
             }
         },
         {
@@ -524,6 +526,13 @@
             "filterable": 0
         },
         {
+            "key": "吉吉短剧",
+            "name": "吉吉｜短剧",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "ext": "./XBPQ/吉吉短剧.json"
+        },
+        {
             "key": "爱我短剧",
             "name": "爱我｜短剧",
             "type": 3,
@@ -532,6 +541,13 @@
             "quickSearch": 1,
             "filterable": 1,
             "ext": "./XBPQ/爱我短剧.json"
+        },
+        {
+            "key": "短剧网",
+            "name": "短剧网｜短剧",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "ext": "./XBPQ/短剧网.json"
         },
         {
             "key": "短剧屋",
@@ -752,8 +768,7 @@
             "api": "csp_Kanke",
             "searchable": 1,
             "quickSearch": 1,
-            "filterable": 1,
-            "ext": "https://www.kmeiju.com"
+            "filterable": 1
         },
         {
             "key": "瓜子影视",
@@ -820,6 +835,34 @@
             "quickSearch": 1,
             "filterable": 1,
             "ext": "./XBPQ/海纳影视.json"
+        },
+        {
+            "key": "青柠影视",
+            "name": "青柠｜影视",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "ext": "./XBPQ/青柠影视.json"
+        },
+        {
+            "key": "面包影视",
+            "name": "面包｜影视",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "ext": "./XBPQ/面包影视.json"
+        },
+        {
+            "key": "永乐影视",
+            "name": "永乐｜影视",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "ext": "./XBPQ/永乐影视.json"
+        },
+        {
+            "key": "雪糕影视",
+            "name": "雪糕｜影视",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "ext": "./XBPQ/雪糕影视.json"
         },
         {
             "key": "金牌影视",
@@ -1239,13 +1282,6 @@
             "ext": "./JS/56动漫.js"
         },
         {
-            "key": "58动漫",
-            "name": "58｜动漫",
-            "type": 3,
-            "api": "./JS/drpy2.min.js",
-            "ext": "./JS/58动漫.js"
-        },
-        {
             "key": "NT动漫",
             "name": "NT｜动漫",
             "type": 3,
@@ -1258,6 +1294,19 @@
             "type": 3,
             "api": "./JS/drpy2.min.js",
             "ext": "./JS/Anime1.js"
+        },
+        {
+            "key": "哆啦新番社",
+            "name": "哆啦｜新番社",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "style": {
+                "type": "list"
+            },
+            "ext": "./XBPQ/哆啦新番社.json"
         },
         {
             "key": "动画片",
@@ -1365,45 +1414,6 @@
             }
         },
         {
-            "key": "搜索弹幕",
-            "name": "搜索｜弹幕",
-            "type": 3,
-            "api": "csp_PanSearch",
-            "searchable": 1,
-            "filterable": 0,
-            "changeable": 1,
-            "ext": {
-                "token": "http://127.0.0.1:9978/file/TVBox/token.txt",
-                "danmu": true
-            }
-        },
-        {
-            "key": "云云弹幕",
-            "name": "云云｜弹幕",
-            "type": 3,
-            "api": "csp_Upys",
-            "searchable": 1,
-            "filterable": 0,
-            "changeable": 1,
-            "ext": {
-                "token": "http://127.0.0.1:9978/file/TVBox/token.txt",
-                "danmu": true
-            }
-        },
-        {
-            "key": "云搜弹幕",
-            "name": "云搜｜弹幕",
-            "type": 3,
-            "api": "csp_UpYun",
-            "searchable": 1,
-            "filterable": 0,
-            "changeable": 1,
-            "ext": {
-                "token": "http://127.0.0.1:9978/file/TVBox/token.txt",
-                "danmu": true
-            }
-        },
-        {
             "key": "盘搜弹幕",
             "name": "盘搜｜弹幕",
             "type": 3,
@@ -1499,27 +1509,13 @@
             }
         },
         {
-            "key": "夸克爱盘搜弹幕",
-            "name": "爱盘搜｜弹幕",
+            "key": "夸克短剧弹幕",
+            "name": "夸克短剧｜弹幕",
             "type": 3,
-            "api": "csp_AiPanSou",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "changeable": 1,
-            "ext": {
-                "cookie": "http://127.0.0.1:9978/file/TVBox/quark.txt",
-                "danmu": true
-            }
-        },
-        {
-            "key": "夸克盘搜弹幕",
-            "name": "夸克盘搜｜弹幕",
-            "type": 3,
-            "api": "csp_Qkpanso",
+            "api": "csp_Qkdj",
             "searchable": 1,
             "filterable": 1,
-            "changeable": 1,
+            "changeable": 0,
             "ext": {
                 "cookie": "http://127.0.0.1:9978/file/TVBox/quark.txt",
                 "danmu": true
@@ -2067,61 +2063,55 @@
         {
             "name": "直播",
             "type": 0,
-            "url": "http://127.0.0.1:9978/proxy?do=live&url=https://tv.iill.top/m3u/Gather",
-            "playerType": 2
+            "url": "http://127.0.0.1:9978/proxy?do=live&u=Gather",
+            "playerType": 2,
+            "timeout": 10
         },
         {
             "name": "范明明",
             "type": 0,
             "url": "https://live.fanmingming.com/tv/m3u/ipv6.m3u",
-            "playerType": 2
+            "playerType": 2,
+            "timeout": 10
         },
         {
             "name": "肥羊国内直播",
-            "type": 0,
-            "url": "http://127.0.0.1:9978/proxy?do=live&url=http://127.0.0.1:35345/tv.m3u",
-            "ua": "okhttp/3.15"
-        },
-        {
-            "name": "肥羊TPTV",
-            "type": 0,
-            "url": "http://127.0.0.1:9978/proxy?do=live&url=http://127.0.0.1:35345/tptv.m3u",
+            "type": 3,
+            "api": "csp_Feiyang",
+            "url": "tv.m3u",
+            "timeout": 10,
             "ua": "okhttp/3.15"
         },
         {
             "name": "肥羊虎牙一起看",
-            "type": 0,
-            "url": "http://127.0.0.1:9978/proxy?do=live&url=http://127.0.0.1:35345/huyayqk.m3u",
+            "type": 3,
+            "api": "csp_Feiyang",
+            "url": "huyayqk.m3u",
+            "timeout": 10,
             "ua": "okhttp/3.15"
         },
         {
             "name": "肥羊B站直播",
-            "type": 0,
-            "url": "http://127.0.0.1:9978/proxy?do=live&url=http://127.0.0.1:35345/bililive.m3u",
+            "type": 3,
+            "api": "csp_Feiyang",
+            "url": "bililive.m3u",
+            "timeout": 10,
             "ua": "okhttp/3.15"
         },
         {
             "name": "肥羊斗鱼一起看",
-            "type": 0,
-            "url": "http://127.0.0.1:9978/proxy?do=live&url=http://127.0.0.1:35345/douyuyqk.m3u",
+            "type": 3,
+            "api": "csp_Feiyang",
+            "url": "douyuyqk.m3u",
+            "timeout": 10,
             "ua": "okhttp/3.15"
         },
         {
             "name": "肥羊YY轮播",
-            "type": 0,
-            "url": "http://127.0.0.1:9978/proxy?do=live&url=http://127.0.0.1:35345/yylunbo.m3u",
-            "ua": "okhttp/3.15"
-        },
-        {
-            "name": "肥羊咪咕电视直播",
-            "type": 0,
-            "url": "http://127.0.0.1:9978/proxy?do=live&url=http://127.0.0.1:35345/migu.m3u",
-            "ua": "okhttp/3.15"
-        },
-        {
-            "name": "肥羊咪咕赛事直播",
-            "type": 0,
-            "url": "http://127.0.0.1:9978/proxy?do=live&url=http://127.0.0.1:35345/miguevent.m3u",
+            "type": 3,
+            "api": "csp_Feiyang",
+            "url": "yylunbo.m3u",
+            "timeout": 10,
             "ua": "okhttp/3.15"
         }
     ],
