@@ -146,40 +146,6 @@
     ],
     "parses": [
         {
-            "name": "聚合",
-            "type": 3,
-            "url": "Demo"
-        },
-        {
-            "name": "臻享",
-            "type": "1",
-            "url": "https://jk.123zy.cool/jx/jx.php?url=",
-            "ext": {
-                "flag": [
-                    "qq",
-                    "腾讯",
-                    "qiyi",
-                    "爱奇艺",
-                    "奇艺",
-                    "youku",
-                    "优酷",
-                    "sohu",
-                    "搜狐",
-                    "letv",
-                    "乐视",
-                    "mgtv",
-                    "芒果",
-                    "tnmb",
-                    "seven",
-                    "bilibili",
-                    "1905"
-                ],
-                "header": {
-                    "User-Agent": "okhttp/4.9.1"
-                }
-            }
-        },
-        {
             "name": "推荐",
             "type": 1,
             "url": "https://jxjson.icu/neibu.php?url=",
@@ -211,16 +177,6 @@
         {
             "name": "线路1",
             "type": 0,
-            "url": "https://jx.xmflv.com/?url=",
-            "ext": {
-                "header": {
-                    "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36 Edg/110.0.1587.57"
-                }
-            }
-        },
-        {
-            "name": "线路2",
-            "type": 0,
             "url": "https://jx.quankan.app/?url=",
             "ext": {
                 "header": {
@@ -229,7 +185,7 @@
             }
         },
         {
-            "name": "线路3",
+            "name": "线路2",
             "type": 0,
             "url": "https://jx.yparse.com/index.php?url=",
             "ext": {
@@ -239,7 +195,7 @@
             }
         },
         {
-            "name": "线路4",
+            "name": "线路3",
             "type": 0,
             "url": "https://jx.aidouer.net/?url=",
             "ext": {
@@ -250,22 +206,22 @@
             }
         },
         {
-            "name": "线路5",
+            "name": "线路4",
             "type": 0,
             "url": "https://www.8090g.cn/?url="
         },
         {
-            "name": "线路6",
+            "name": "线路5",
             "type": 0,
             "url": "https://jx.yangtu.top?url="
         },
         {
-            "name": "线路7",
+            "name": "线路6",
             "type": 0,
             "url": "https://jx.m3u8.tv/jiexi/?url="
         },
         {
-            "name": "线路8",
+            "name": "线路7",
             "type": 0,
             "url": "https://www.ckplayer.vip/jiexi/?url="
         }

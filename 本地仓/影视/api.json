@@ -224,22 +224,6 @@
             }
         },
         {
-            "key": "无忧短剧",
-            "name": "无忧｜短剧",
-            "type": 3,
-            "api": "csp_Duanj",
-            "searchable": 1,
-            "changeable": 0
-        },
-        {
-            "key": "在线短剧",
-            "name": "在线｜短剧",
-            "type": 3,
-            "api": "csp_Duanju",
-            "searchable": 1,
-            "changeable": 0
-        },
-        {
             "key": "星芽短剧",
             "name": "星芽｜短剧",
             "type": 3,
@@ -348,16 +332,6 @@
             "ext": "KhYl01Kekjo9vLs09V+rOtv/6QaOFwdQp2ne4h22GLkT99eCXh9SJ/lGZNM8zgk1OnFWx0zBQ9Y/9mAjQB67LaEp7Yj7w9SYBEjFbdPjKy3EHp7uBIHXVI7/dZ4r/dJapz6ihlWwqY2KlGuarL/+9suxO4ZJFOg1OxN+dTrTbi2Muff1CmBkNfrY+sENTEbHAsgpQRtycD7pjvPePZ1AgNT8ZuBCcf4lIM858OSMK4u76tpjIfqzVA=="
         },
         {
-            "key": "星星影视",
-            "name": "星星｜APP",
-            "type": 3,
-            "api": "csp_AppZX",
-            "searchable": 1,
-            "quickSearch": 0,
-            "filterable": 0,
-            "ext": "KhY021WelCEl+6MsvwnzaLK5slLrVkVKpWWFo0f0XrIG4I/KFx5RJf8ee99ij0p6UXFSzynUUoQn+CMLXQSrHrks8dKtjc6OXESxcMCKZWCfIZLnBIHXbQkKgwbMN1ancbdBF0wmVANCCrQQTm2Nd1Q68RP63nGTicCesKtoaOomHl8T0c2P6T1te5WMsJkNyDa8tsgx5q0uDyR6+QqFAx0l92nhDqQ8"
-        },
-        {
             "key": "米米影视",
             "name": "米米｜APP",
             "type": 3,
@@ -368,29 +342,10 @@
             "ext": "KhY021WelCEl+6MsvwnzaLK5sg6yEQRc8CLY+R2wReBS99eCRx9APeYSJ5VWzBI5XnVfjFiTSsduqSYOWQC3AqI3+tLwmZ/aT2z/PZuRbHjEUNX8RMiGfg8bkgTbOVjmN6hVB1V3ZE4DTbUbATLmIUci/wOblS2T54u1dxfP2owIfTg1nKSiYD1ndF3VotBmw5u8hM7jpJZ3Ugcaqy/mTj7oMr8="
         },
         {
-            "key": "云云影视",
-            "name": "云云｜APP",
-            "type": 3,
-            "api": "csp_AppLma",
-            "searchable": 1,
-            "quickSearch": 0,
-            "filterable": 0,
-            "ext": "KhY021WelCEl+6MsvwnzaPusskyiDwxc/zHc8gWyReBS+prQb0FAAvlCb5Uoj4LihPmHGDbnCYo/risaDE3tISvdDENCSVt4yNkc/84/jK0C1mB7qQzP6tbIGNAuvYFQ5GG9wtLMcQNCCr0aUEOhalQ68ReunWqH5JzX96l/BDfD/4KyVQlAKaurrptTFwKIRcQ7DU0yNCOv0eHPd48jyYXnc/YzNv9jY54k0unLa6z06bdWLsj4G0aNHwcp3IxydlT/taKaA0S27Tmdq7nkMyq26a39g1MHcVEvL6x7xZmF+nOYuZBIiIxzh36dj2ues4Nt2ukFtac="
-        },
-        {
             "key": "忍者影视",
             "name": "忍者｜APP",
             "type": 3,
             "api": "csp_AppRZ",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1
-        },
-        {
-            "key": "凡人影视",
-            "name": "凡人｜APP",
-            "type": 3,
-            "api": "csp_AppFr",
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1
@@ -512,24 +467,6 @@
             "filterable": 1
         },
         {
-            "key": "疯狗影视",
-            "name": "疯狗｜影视",
-            "type": 3,
-            "api": "csp_FengGo",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1
-        },
-        {
-            "key": "比特影视",
-            "name": "比特｜影视",
-            "type": 3,
-            "api": "csp_Bttwo",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1
-        },
-        {
             "key": "奇优影视",
             "name": "奇优｜影视",
             "type": 3,
@@ -606,28 +543,10 @@
             "filterable": 1
         },
         {
-            "key": "铁剧影视",
-            "name": "铁剧｜影视",
-            "type": 3,
-            "api": "csp_WebBr",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1
-        },
-        {
             "key": "真心影视",
             "name": "真心｜影视",
             "type": 3,
             "api": "csp_WebGZ",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1
-        },
-        {
-            "key": "耐看影视",
-            "name": "耐看｜影视",
-            "type": 3,
-            "api": "csp_WebNK",
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1
@@ -1024,11 +943,6 @@
     ],
     "parses": [
         {
-            "name": "聚合",
-            "type": 3,
-            "url": "Demo"
-        },
-        {
             "name": "臻享",
             "type": "1",
             "url": "http://pan.qiaoji8.com/tvbox/neibu.php?url=",
@@ -1118,16 +1032,6 @@
         {
             "name": "线路1",
             "type": 0,
-            "url": "https://jx.xmflv.com/?url=",
-            "ext": {
-                "header": {
-                    "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36 Edg/110.0.1587.57"
-                }
-            }
-        },
-        {
-            "name": "线路2",
-            "type": 0,
             "url": "https://jx.quankan.app/?url=",
             "ext": {
                 "header": {
@@ -1136,7 +1040,7 @@
             }
         },
         {
-            "name": "线路3",
+            "name": "线路2",
             "type": 0,
             "url": "https://jx.yparse.com/index.php?url=",
             "ext": {
@@ -1146,7 +1050,7 @@
             }
         },
         {
-            "name": "线路4",
+            "name": "线路3",
             "type": 0,
             "url": "https://jx.aidouer.net/?url=",
             "ext": {
@@ -1157,22 +1061,22 @@
             }
         },
         {
-            "name": "线路5",
+            "name": "线路4",
             "type": 0,
             "url": "https://www.8090g.cn/?url="
         },
         {
-            "name": "线路6",
+            "name": "线路5",
             "type": 0,
             "url": "https://jx.yangtu.top?url="
         },
         {
-            "name": "线路7",
+            "name": "线路6",
             "type": 0,
             "url": "https://jx.m3u8.tv/jiexi/?url="
         },
         {
-            "name": "线路8",
+            "name": "线路7",
             "type": 0,
             "url": "https://www.ckplayer.vip/jiexi/?url="
         }

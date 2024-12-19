@@ -79,16 +79,6 @@
             "filterable": 1
         },
         {
-            "key": "音范丝",
-            "name": "音范丝｜磁力",
-            "type": 3,
-            "api": "csp_XPath",
-            "searchable": 1,
-            "quickSearch": 0,
-            "changeable": 0,
-            "ext": "./XPath/音范丝.json"
-        },
-        {
             "key": "磁力熊",
             "name": "磁力熊｜磁力",
             "type": 3,
