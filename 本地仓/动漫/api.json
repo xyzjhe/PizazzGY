@@ -122,13 +122,6 @@
             "ext": "./JS/樱花动漫.js"
         },
         {
-            "key": "大米动漫",
-            "name": "大米｜动漫",
-            "type": 3,
-            "api": "./JS/drpy2.min.js",
-            "ext": "./JS/大米动漫.js"
-        },
-        {
             "key": "push_agent",
             "name": "手机｜推送",
             "type": 3,
