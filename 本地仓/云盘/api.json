@@ -1,6 +1,6 @@
 {
     "spider": "http://127.0.0.1:9978/file/TVBoxOSC/本地仓/spider.jar",
-    "wallpaper": "http://127.0.0.1:9978/file/TVBox/wallpaper.jpg",
+    "wallpaper": "http://bobohome.ignorelist.com:20247/bing",
     "logo": "http://127.0.0.1:9978/file/TVBox/logo.png",
     "sites": [
         {
@@ -114,7 +114,7 @@
         },
         {
             "key": "玩偶弹幕",
-            "name": "玩偶哥哥｜4K弹幕",
+            "name": "玩偶｜4K弹幕",
             "type": 3,
             "api": "csp_Wogg",
             "searchable": 1,
@@ -125,22 +125,6 @@
                 "cookie": "http://127.0.0.1:9978/file/TVBox/quark.txt",
                 "uc_cookie": "http://127.0.0.1:9978/file/TVBox/uc.txt",
                 "wogg": true,
-                "danmu": true
-            }
-        },
-        {
-            "key": "玩偶备用弹幕",
-            "name": "玩偶｜4K弹幕",
-            "type": 3,
-            "api": "csp_Wogg",
-            "quickSearch": 1,
-            "changeable": 1,
-            "filterable": 1,
-            "ext": {
-                "token": "http://127.0.0.1:9978/file/TVBox/token.txt",
-                "cookie": "http://127.0.0.1:9978/file/TVBox/quark.txt",
-                "uc_cookie": "http://127.0.0.1:9978/file/TVBox/uc.txt",
-                "site": "https://wogg.xxooo.cf",
                 "danmu": true
             }
         },
@@ -406,20 +390,6 @@
             "jar": "http://127.0.0.1:9978/file/TVBoxOSC/本地仓/wex.jar"
         },
         {
-            "key": "夸克影搜弹幕",
-            "name": "影搜｜弹幕",
-            "type": 3,
-            "api": "csp_Yingso",
-            "searchable": 1,
-            "filterable": 0,
-            "changeable": 1,
-            "ext": {
-                "token": "http://127.0.0.1:9978/file/TVBox/token.txt",
-                "cookie": "http://127.0.0.1:9978/file/TVBox/quark.txt",
-                "danmu": true
-            }
-        },
-        {
             "key": "搜索弹幕",
             "name": "搜索｜弹幕",
             "type": 3,
@@ -457,20 +427,6 @@
             "ext": {
                 "token": "http://127.0.0.1:9978/file/TVBox/token.txt",
                 "cookie": "http://127.0.0.1:9978/file/TVBox/quark.txt",
-                "danmu": true
-            }
-        },
-        {
-            "key": "米搜弹幕",
-            "name": "米搜｜弹幕",
-            "type": 3,
-            "api": "csp_Qkpanso",
-            "searchable": 1,
-            "filterable": 1,
-            "changeable": 0,
-            "ext": {
-                "cookie": "http://127.0.0.1:9978/file/TVBox/quark.txt",
-                "site": "https://www.misou.fun",
                 "danmu": true
             }
         },
@@ -526,6 +482,16 @@
                 "cookie": "http://127.0.0.1:9978/file/TVBox/quark.txt",
                 "danmu": true
             }
+        },
+        {
+            "key": "检查更新",
+            "name": "检查｜更新",
+            "type": 3,
+            "api": "csp_Market",
+            "searchable": 0,
+            "changeable": 0,
+            "indexs": 0,
+            "ext": "https://github.moeyy.xyz/https://raw.githubusercontent.com/PizazzGY/Share/main/market.json"
         },
         {
             "key": "push_agent",
@@ -596,14 +562,6 @@
             "logo": "https://live.fanmingming.cn/tv/{name}.png",
             "playerType": 1,
             "timeout": 10
-        },
-        {
-            "name": "直播",
-            "type": 3,
-            "api": "csp_Feiyang",
-            "url": "tv.m3u",
-            "timeout": 10,
-            "ua": "okhttp/3.15"
         },
         {
             "name": "电视Live",

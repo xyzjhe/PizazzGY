@@ -1,6 +1,6 @@
 {
     "spider": "http://127.0.0.1:9978/file/TVBoxOSC/本地仓/spider.jar",
-    "wallpaper": "http://127.0.0.1:9978/file/TVBox/wallpaper.jpg",
+    "wallpaper": "http://bobohome.ignorelist.com:20247/bing",
     "logo": "http://127.0.0.1:9978/file/TVBox/logo.png",
     "sites": [
         {
@@ -427,6 +427,17 @@
             "api": "csp_Hudie",
             "playerType": 2,
             "ext": "eaHR0cHM6Ly9kLmRjbW92aWUudG9w"
+        },
+        {
+            "key": "快看",
+            "name": "快看｜APP",
+            "type": 3,
+            "api": "csp_AppYsV2",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "changeable": 1,
+            "ext": "http://kkwk123.top/api.php/app/"
         },
         {
             "key": "天天影视",
@@ -984,6 +995,16 @@
             ]
         },
         {
+            "key": "检查更新",
+            "name": "检查｜更新",
+            "type": 3,
+            "api": "csp_Market",
+            "searchable": 0,
+            "changeable": 0,
+            "indexs": 0,
+            "ext": "https://github.moeyy.xyz/https://raw.githubusercontent.com/PizazzGY/Share/main/market.json"
+        },
+        {
             "key": "push_agent",
             "name": "手机｜推送",
             "type": 3,
@@ -1386,14 +1407,6 @@
             "logo": "https://live.fanmingming.cn/tv/{name}.png",
             "playerType": 1,
             "timeout": 10
-        },
-        {
-            "name": "直播",
-            "type": 3,
-            "api": "csp_Feiyang",
-            "url": "tv.m3u",
-            "timeout": 10,
-            "ua": "okhttp/3.15"
         },
         {
             "name": "电视Live",

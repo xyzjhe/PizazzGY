@@ -1,5 +1,5 @@
 var rule = {
-    类型: '影视',//影视|听书|漫画|小说
+    类型: '影视', //影视|听书|漫画|小说
     title: '贝乐虎[儿]',
     host: 'https://vd.ubestkid.com',
     url: '/api/v1/bv/video#pg=fypage',
@@ -16,13 +16,26 @@ var rule = {
     }),
     play_parse: true,
     lazy: $js.toString(() => {
-        input = {parse: 0, url: input + '#.mp4'};
+        input = {
+            parse: 0,
+            url: input + '#.mp4'
+        };
     }),
     推荐: $js.toString(() => {
-        let pdata = {age: 1, appver: "6.1.9", egvip_status: 0, svip_status: 0, vps: 60, subcateId: 56, p: 1};
+        let pdata = {
+            age: 1,
+            appver: "6.1.9",
+            egvip_status: 0,
+            svip_status: 0,
+            vps: 60,
+            subcateId: 56,
+            p: 1
+        };
         //   let pbody = buildUrl('',pdata).split('?')[1];
         //   let html = post(input,{body:pbody});
-        let html = post(input, {data: pdata});
+        let html = post(input, {
+            data: pdata
+        });
         let json = JSON.parse(html);
         let data = json.result.items;
         let d = [];
@@ -37,8 +50,18 @@ var rule = {
         VODS = d;
     }),
     一级: $js.toString(() => {
-        let pdata = {age: 1, appver: "6.1.9", egvip_status: 0, svip_status: 0, vps: 60, subcateId: MY_CATE, p: MY_PAGE};
-        let html = post(input.split('#')[0], {data: pdata});
+        let pdata = {
+            age: 1,
+            appver: "6.1.9",
+            egvip_status: 0,
+            svip_status: 0,
+            vps: 60,
+            subcateId: MY_CATE,
+            p: MY_PAGE
+        };
+        let html = post(input.split('#')[0], {
+            data: pdata
+        });
         let json = JSON.parse(html);
         let data = json.result.items;
         let d = [];
