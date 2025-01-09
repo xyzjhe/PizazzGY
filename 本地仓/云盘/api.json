@@ -304,7 +304,7 @@
                 "token": "http://127.0.0.1:9978/file/TVBox/token.txt",
                 "cookie": "http://127.0.0.1:9978/file/TVBox/quark.txt",
                 "uc_cookie": "http://127.0.0.1:9978/file/TVBox/uc.txt",
-                "site": "https://smdyo.top",
+                "site": "http://失眠的夜.top",
                 "danmu": true
             }
         },
@@ -320,7 +320,7 @@
                 "token": "http://127.0.0.1:9978/file/TVBox/token.txt",
                 "cookie": "http://127.0.0.1:9978/file/TVBox/quark.txt",
                 "uc_cookie": "http://127.0.0.1:9978/file/TVBox/uc.txt",
-                "site": "https://wp.huban.xyz",
+                "site": "http://wp.huban.xyz",
                 "danmu": true
             }
         },
@@ -490,8 +490,7 @@
             "api": "csp_Market",
             "searchable": 0,
             "changeable": 0,
-            "indexs": 0,
-            "ext": "https://github.moeyy.xyz/https://raw.githubusercontent.com/PizazzGY/Share/main/market.json"
+            "indexs": 0
         },
         {
             "key": "push_agent",
@@ -560,7 +559,7 @@
             "url": "https://ghproxy.net/raw.githubusercontent.com/PizazzGY/TV/master/output/user_result.txt",
             "epg": "http://cdn.1678520.xyz/epg/?ch={name}&date={date}",
             "logo": "https://live.fanmingming.cn/tv/{name}.png",
-            "playerType": 1,
+            "playerType": 2,
             "timeout": 10
         },
         {
