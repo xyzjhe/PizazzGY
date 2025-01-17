@@ -24,30 +24,24 @@
             }
         },
         {
-            "key": "荐片弹幕",
-            "name": "荐片｜弹幕",
+            "key": "修罗影视",
+            "name": "修罗｜磁力",
             "type": 3,
-            "api": "csp_Jianpian",
+            "api": "csp_XBPQ",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "./XBPQ/修罗影视.json"
+        },
+        {
+            "key": "80S",
+            "name": "80S｜磁力",
+            "type": 3,
+            "api": "csp_BLSGod",
             "playerType": 1,
             "searchable": 1,
             "quickSearch": 1,
-            "filterable": 1,
-            "ext": {
-                "danmu": true
-            }
-        },
-        {
-            "key": "哔嘀弹幕",
-            "name": "哔嘀｜弹幕",
-            "type": 3,
-            "api": "csp_Bdys",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": {
-                "site": "https://www.xlys01.com",
-                "danmu": true
-            }
+            "filterable": 1
         },
         {
             "key": "New6v",

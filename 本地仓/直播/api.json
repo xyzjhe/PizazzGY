@@ -4,13 +4,17 @@
     "logo": "http://127.0.0.1:9978/file/TVBox/logo.png",
     "sites": [
         {
-            "key": "Alllive",
-            "name": "‍聚合｜直播‍",
+            "key": "快手直播",
+            "name": "快手｜直播",
             "type": 3,
-            "api": "csp_Wexalllive",
-            "searchable": 1,
-            "changeable": 1,
-            "jar": "http://127.0.0.1:9978/file/TVBoxOSC/本地仓/wex.jar"
+            "api": "csp_KsLive",
+            "searchable": 0,
+            "quickSearch": 0,
+            "filterable": 1,
+            "style": {
+                "type": "rect",
+                "ratio": 1.597
+            }
         },
         {
             "key": "配置中心",
@@ -20,19 +24,6 @@
             "searchable": 0,
             "changeable": 0,
             "indexs": 0,
-            "style": {
-                "type": "rect",
-                "ratio": 1.597
-            }
-        },
-        {
-            "key": "快手直播",
-            "name": "快手｜直播",
-            "type": 3,
-            "api": "csp_KsLive",
-            "searchable": 0,
-            "quickSearch": 0,
-            "filterable": 1,
             "style": {
                 "type": "rect",
                 "ratio": 1.597
