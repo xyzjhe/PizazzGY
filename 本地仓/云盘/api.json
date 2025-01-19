@@ -341,19 +341,6 @@
             }
         },
         {
-            "key": "115",
-            "name": "115｜4K",
-            "type": 3,
-            "api": "csp_Wex115share",
-            "searchable": 1,
-            "changeable": 1,
-            "timeout": 50,
-            "style": {
-                "type": "list"
-            },
-            "jar": "http://127.0.0.1:9978/file/TVBoxOSC/本地仓/wex.jar"
-        },
-        {
             "key": "雷鲸",
             "name": "雷鲸｜4K",
             "type": 3,
@@ -554,6 +541,14 @@
         }
     ],
     "lives": [
+        {
+            "name": "直播",
+            "type": 3,
+            "api": "csp_Feiyang",
+            "url": "tv.m3u",
+            "timeout": 10,
+            "ua": "okhttp/3.15"
+        },
         {
             "name": "AI直播",
             "type": 0,
