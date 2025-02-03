@@ -299,17 +299,6 @@
             }
         },
         {
-            "name": "皮皮虾",
-            "type": "1",
-            "url": "http://jiexi.52ppx.top/index.php?url=",
-            "ext": {
-                "flag": [
-                    "PPXLG",
-                    "皮皮虾4K"
-                ]
-            }
-        },
-        {
             "name": "线路1",
             "type": 0,
             "url": "https://www.8090g.cn/?url="
@@ -394,20 +383,20 @@
             "ua": "okhttp/3.15"
         },
         {
-            "name": "CIPTV直播",
-            "type": 3,
-            "api": "csp_Feiyang",
-            "url": "https://9877.kstore.space/Market/ciptv.m3u",
-            "timeout": 10,
-            "ua": "okhttp/3.15"
+            "name": "AI直播",
+            "type": 0,
+            "url": "https://ghproxy.net/raw.githubusercontent.com/PizazzGY/TV/master/output/user_result.txt",
+            "epg": "http://cdn.1678520.xyz/epg/?ch={name}&date={date}",
+            "playerType": 2,
+            "timeout": 10
         },
         {
-            "name": "B站直播",
-            "type": 3,
-            "api": "csp_Feiyang",
-            "url": "bililive.m3u",
-            "timeout": 10,
-            "ua": "okhttp/3.15"
+            "name": "AI直播+",
+            "type": 0,
+            "url": "https://wget.la/https://raw.githubusercontent.com/PizazzGY/TV/master/output/user_result.txt",
+            "epg": "http://cdn.1678520.xyz/epg/?ch={name}&date={date}",
+            "playerType": 2,
+            "timeout": 10
         },
         {
             "name": "虎牙一起看",
@@ -432,15 +421,6 @@
             "url": "yylunbo.m3u",
             "timeout": 10,
             "ua": "okhttp/3.15"
-        },
-        {
-            "name": "AI直播",
-            "type": 0,
-            "url": "https://ghproxy.net/raw.githubusercontent.com/PizazzGY/TV/master/output/user_result.txt",
-            "epg": "http://cdn.1678520.xyz/epg/?ch={name}&date={date}",
-            "logo": "https://live.fanmingming.cn/tv/{name}.png",
-            "playerType": 2,
-            "timeout": 10
         },
         {
             "name": "电视Live",
