@@ -7,11 +7,11 @@
             "key": "88看球",
             "name": "88｜看球",
             "type": 3,
-            "api": "./JS/drpy2.min.js",
+            "api": "csp_Kanqiu",
+            "searchable": 0,
             "style": {
                 "type": "list"
-            },
-            "ext": "./JS/88看球.js"
+            }
         },
         {
             "key": "310直播",

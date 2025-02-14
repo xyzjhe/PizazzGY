@@ -4,6 +4,13 @@
     "logo": "http://127.0.0.1:9978/file/TVBox/logo.png",
     "sites": [
         {
+            "key": "网络直播",
+            "name": "网络｜直播",
+            "type": 3,
+            "api": "csp_Living",
+            "searchable": 1
+        },
+        {
             "key": "快手直播",
             "name": "快手｜直播",
             "type": 3,
