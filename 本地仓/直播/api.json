@@ -11,19 +11,6 @@
             "searchable": 1
         },
         {
-            "key": "快手直播",
-            "name": "快手｜直播",
-            "type": 3,
-            "api": "csp_KsLive",
-            "searchable": 0,
-            "quickSearch": 0,
-            "filterable": 1,
-            "style": {
-                "type": "rect",
-                "ratio": 1.597
-            }
-        },
-        {
             "key": "配置中心",
             "name": "配置｜中心",
             "type": 3,
@@ -31,6 +18,19 @@
             "searchable": 0,
             "changeable": 0,
             "indexs": 0,
+            "style": {
+                "type": "rect",
+                "ratio": 1.597
+            }
+        },
+        {
+            "key": "快手直播",
+            "name": "快手｜直播",
+            "type": 3,
+            "api": "csp_KsLive",
+            "searchable": 0,
+            "quickSearch": 0,
+            "filterable": 1,
             "style": {
                 "type": "rect",
                 "ratio": 1.597
@@ -51,26 +51,8 @@
             "key": "斗鱼直播",
             "name": "斗鱼｜直播",
             "type": 3,
-            "api": "csp_AmuDouYu",
-            "searchable": 1,
-            "quickSearch": 0,
-            "filterable": 0,
-            "changeable": 0,
-            "style": {
-                "type": "rect",
-                "ratio": 1.597
-            },
-            "ext": "./json/斗鱼直播.json"
-        },
-        {
-            "key": "抖音直播",
-            "name": "抖音｜直播",
-            "type": 3,
-            "api": "csp_AmuDouYin",
-            "searchable": 1,
-            "quickSearch": 0,
-            "filterable": 0,
-            "changeable": 0,
+            "api": "./js/drpy2.min.js",
+            "ext": "./js/斗鱼直播.js",
             "style": {
                 "type": "rect",
                 "ratio": 1.597
@@ -159,6 +141,15 @@
     ],
     "lives": [
         {
+            "name": "ITV",
+            "type": 0,
+            "url": "http://127.0.0.1:9978/file/TVBoxOSC/本地仓/ITV.txt",
+            "epg": "http://epg.51zmt.top:8000/e.xml",
+            "ua": "okhttp/3.15,AptvPlayer/1.4.0",
+            "timeout": "3",
+            "playerType": 2
+        },
+        {
             "name": "肥羊直播",
             "type": 3,
             "api": "csp_Feiyang",
@@ -231,6 +222,13 @@
             "playerType": 2,
             "timeout": 10
         }
+    ],
+    "hosts": [
+        "cache.ott.ystenlive.itv.cmvideo.cn=base-v4-free-mghy.e.cdn.chinamobile.com",
+        "cache.ott.bestlive.itv.cmvideo.cn=base-v4-free-mghy.e.cdn.chinamobile.com",
+        "cache.ott.wasulive.itv.cmvideo.cn=base-v4-free-mghy.e.cdn.chinamobile.com",
+        "cache.ott.fifalive.itv.cmvideo.cn=base-v4-free-mghy.e.cdn.chinamobile.com",
+        "cache.ott.hnbblive.itv.cmvideo.cn=base-v4-free-mghy.e.cdn.chinamobile.com"
     ],
     "ijk": [
         {

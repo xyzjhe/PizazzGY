@@ -38,6 +38,19 @@
             "jar": "http://127.0.0.1:9978/file/TVBoxOSC/本地仓/wex.jar"
         },
         {
+            "key": "AList",
+            "name": "AList｜合集",
+            "type": 3,
+            "api": "csp_AList",
+            "searchable": 1,
+            "filterable": 1,
+            "changeable": 0,
+            "style": {
+                "type": "list"
+            },
+            "ext": "./json/alist.json"
+        },
+        {
             "key": "我的阿里",
             "name": "我的｜阿里",
             "type": 3,
@@ -96,7 +109,7 @@
             "indexs": 0,
             "ext": {
                 "token": "http://127.0.0.1:9978/file/TVBox/token.txt",
-                "share": "./JS/alishare.txt"
+                "share": "./js/alishare.txt"
             },
             "style": {
                 "type": "list"
@@ -106,8 +119,8 @@
             "key": "短剧合集",
             "name": "短剧｜合集",
             "type": 3,
-            "api": "./JS/quark.min.js",
-            "ext": "./JS/短剧合集.js",
+            "api": "./js/quark.min.js",
+            "ext": "./js/短剧合集.js",
             "style": {
                 "type": "list"
             }
@@ -493,6 +506,15 @@
     ],
     "lives": [
         {
+            "name": "ITV",
+            "type": 0,
+            "url": "http://127.0.0.1:9978/file/TVBoxOSC/本地仓/ITV.txt",
+            "epg": "http://epg.51zmt.top:8000/e.xml",
+            "ua": "okhttp/3.15,AptvPlayer/1.4.0",
+            "timeout": "3",
+            "playerType": 2
+        },
+        {
             "name": "肥羊直播",
             "type": 3,
             "api": "csp_Feiyang",
@@ -565,6 +587,13 @@
             "playerType": 2,
             "timeout": 10
         }
+    ],
+    "hosts": [
+        "cache.ott.ystenlive.itv.cmvideo.cn=base-v4-free-mghy.e.cdn.chinamobile.com",
+        "cache.ott.bestlive.itv.cmvideo.cn=base-v4-free-mghy.e.cdn.chinamobile.com",
+        "cache.ott.wasulive.itv.cmvideo.cn=base-v4-free-mghy.e.cdn.chinamobile.com",
+        "cache.ott.fifalive.itv.cmvideo.cn=base-v4-free-mghy.e.cdn.chinamobile.com",
+        "cache.ott.hnbblive.itv.cmvideo.cn=base-v4-free-mghy.e.cdn.chinamobile.com"
     ],
     "ijk": [
         {
