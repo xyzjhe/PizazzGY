@@ -173,6 +173,7 @@
                 "token": "http://127.0.0.1:9978/file/TVBox/token.txt",
                 "cookie": "http://127.0.0.1:9978/file/TVBox/quark.txt",
                 "uc_cookie": "http://127.0.0.1:9978/file/TVBox/uc.txt",
+                "115_cookie": "http://127.0.0.1:9978/file/TVBox/115.txt",
                 "danmu": true
             }
         }
@@ -331,103 +332,16 @@
     ],
     "rules": [
         {
-            "name": "量子非凡广告",
+            "name": "农民",
             "hosts": [
-                "lz",
-                "vip.lz",
-                "v.cdnlz",
-                "hd.lz",
-                "ffzy",
-                "vip.ffzy",
-                "hd.ffzy"
+                "toutiaovod.com"
             ],
             "regex": [
-                "#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:6.666667,[\\s\\S]*?#EXT-X-DISCONTINUITY",
-                "#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:6.600000,[\\s\\S]*?#EXT-X-DISCONTINUITY"
+                "video/tos/cn"
             ]
         },
         {
-            "name": "索尼广告",
-            "hosts": [
-                "suonizy",
-                "qrssv.com"
-            ],
-            "regex": [
-                "15.1666",
-                "15.2666"
-            ]
-        },
-        {
-            "name": "乐视广告",
-            "hosts": [
-                "leshiyun"
-            ],
-            "regex": [
-                "15.92"
-            ]
-        },
-        {
-            "name": "优质广告",
-            "hosts": [
-                "yzzy",
-                "playback"
-            ],
-            "regex": [
-                "16.63",
-                "18.66",
-                "17.66",
-                "19.13"
-            ]
-        },
-        {
-            "name": "快看广告",
-            "hosts": [
-                "kuaikan",
-                "vip.kuaikan"
-            ],
-            "regex": [
-                "15.32",
-                "15.231",
-                "18.066"
-            ]
-        },
-        {
-            "name": "360广告",
-            "hosts": [
-                "lyhuicheng"
-            ],
-            "regex": [
-                "#EXTINF.*?\\s+.*?hrz8QcR9.*?\\.ts\\s+",
-                "#EXT-X-KEY:METHOD=NONE[\\s\\S]*?#EXT-X-DISCONTINUITY"
-            ]
-        },
-        {
-            "name": "开源棋牌",
-            "hosts": [
-                "askzycdn",
-                "jkunbf",
-                "bfikuncdn",
-                "bfaskcdn"
-            ],
-            "regex": [
-                "#EXT-X-KEY:METHOD=NONE\\r*\\n*#EXTINF:5,[\\s\\S]*?#EXT-X-DISCONTINUITY",
-                "#EXT-X-KEY:METHOD=AES-128,URI=\"[^\"]+\"\\r*\\n*#EXTINF:3.333,[\\s\\S]*?#EXT-X-DISCONTINUITY"
-            ]
-        },
-        {
-            "name": "暴风广告",
-            "hosts": [
-                "bfengbf.com",
-                "bfzy",
-                "c1"
-            ],
-            "regex": [
-                "#EXTINF.*?\\s+.*?adjump.*?\\.ts\\s+",
-                "#EXT-X-DISCONTINUITY\r*\n*#EXTINF:3,[\\s\\S]*?#EXT-X-DISCONTINUITY"
-            ]
-        },
-        {
-            "name": "火山嗅探",
+            "name": "火山",
             "hosts": [
                 "huoshan.com"
             ],
@@ -436,7 +350,7 @@
             ]
         },
         {
-            "name": "抖音嗅探",
+            "name": "抖音",
             "hosts": [
                 "douyin.com"
             ],
@@ -445,12 +359,23 @@
             ]
         },
         {
-            "name": "农民嗅探",
+            "name": "饭团点击",
             "hosts": [
-                "toutiaovod.com"
+                "dadagui",
+                "freeok",
+                "dadagui"
             ],
-            "regex": [
-                "video/tos/cn"
+            "script": [
+                "document.querySelector(\"#playleft iframe\").contentWindow.document.querySelector(\"#start\").click();"
+            ]
+        },
+        {
+            "name": "毛驴点击",
+            "hosts": [
+                "www.maolvys.com"
+            ],
+            "script": [
+                "document.getElementsByClassName('swal-button swal-button--confirm')[0].click()"
             ]
         }
     ],
@@ -500,12 +425,34 @@
     ],
     "lives": [
         {
+            "name": "国内Live",
+            "type": 0,
+            "url": "http://127.0.0.1:9978/proxy?do=live&url=https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1740592110565/zq.fif.txt",
+            "playerType": 2,
+            "timeout": 10,
+            "catchup": {
+                "type": "append",
+                "source": "&starttime=${(b)yyyyMMdd'T'HHmm}00.00Z&endtime=${(e)yyyyMMdd'T'HHmm}00.00Z"
+            }
+        },
+        {
+            "name": "国内移动",
+            "type": 0,
+            "url": "http://127.0.0.1:9978/proxy?do=live&url=https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1739616589773/zq.txt",
+            "playerType": 2,
+            "timeout": 10,
+            "catchup": {
+                "type": "append",
+                "source": "&starttime=${(b)yyyyMMdd'T'HHmm}00.00Z&endtime=${(e)yyyyMMdd'T'HHmm}00.00Z"
+            }
+        },
+        {
             "name": "ITV",
             "type": 0,
             "url": "http://127.0.0.1:9978/file/TVBoxOSC/本地仓/ITV.txt",
             "epg": "http://epg.51zmt.top:8000/e.xml",
             "ua": "okhttp/3.15,AptvPlayer/1.4.0",
-            "timeout": "3",
+            "timeout": 3,
             "playerType": 2
         },
         {
@@ -523,14 +470,6 @@
         {
             "name": "AI直播",
             "type": 0,
-            "url": "https://ghproxy.net/raw.githubusercontent.com/PizazzGY/TV/master/output/user_result.txt",
-            "epg": "http://cdn.1678520.xyz/epg/?ch={name}&date={date}",
-            "playerType": 2,
-            "timeout": 10
-        },
-        {
-            "name": "AI直播+",
-            "type": 0,
             "url": "https://wget.la/https://raw.githubusercontent.com/PizazzGY/TV/master/output/user_result.txt",
             "epg": "http://cdn.1678520.xyz/epg/?ch={name}&date={date}",
             "playerType": 2,
@@ -540,7 +479,7 @@
             "name": "虎牙一起看",
             "type": 3,
             "api": "csp_Feiyang",
-            "url": "https://9877.kstore.space/Live/huyayqk.m3u",
+            "url": "huyayqk.m3u",
             "timeout": 10,
             "ua": "okhttp/3.15"
         },
@@ -548,7 +487,7 @@
             "name": "斗鱼一起看",
             "type": 3,
             "api": "csp_Feiyang",
-            "url": "https://9877.kstore.space/Live/douyuyqk.m3u",
+            "url": "douyuyqk.m3u",
             "timeout": 10,
             "ua": "okhttp/3.15"
         },
@@ -556,7 +495,7 @@
             "name": "YY轮播",
             "type": 3,
             "api": "csp_Feiyang",
-            "url": "https://9877.kstore.space/Live/yylunbo.m3u",
+            "url": "yylunbo.m3u",
             "timeout": 10,
             "ua": "okhttp/3.15"
         },
@@ -580,9 +519,20 @@
             "url": "https://live.fanmingming.cn/tv/m3u/ipv6.m3u",
             "playerType": 2,
             "timeout": 10
+        },
+        {
+            "name": "APTV",
+            "type": 0,
+            "url": "https://wget.la/https://github.com/Kimentanm/aptv/raw/master/m3u/iptv.m3u",
+            "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
+            "logo": "https://epg.iill.top/logo/{name}.png",
+            "ua": "okhttp/3.15,AptvPlayer/1.4.0",
+            "timeout": 10,
+            "playerType": 2
         }
     ],
     "hosts": [
+        "cache.ott.*.itv.cmvideo.cn=base-v4-free-mghy.e.cdn.chinamobile.com",
         "cache.ott.ystenlive.itv.cmvideo.cn=base-v4-free-mghy.e.cdn.chinamobile.com",
         "cache.ott.bestlive.itv.cmvideo.cn=base-v4-free-mghy.e.cdn.chinamobile.com",
         "cache.ott.wasulive.itv.cmvideo.cn=base-v4-free-mghy.e.cdn.chinamobile.com",

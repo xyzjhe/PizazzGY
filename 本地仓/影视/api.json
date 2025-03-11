@@ -49,19 +49,6 @@
             }
         },
         {
-            "key": "天天弹幕",
-            "name": "天天｜弹幕",
-            "type": 3,
-            "api": "csp_TianTian",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": {
-                "danmu": true,
-                "site": "aHR0cDovL29wLnlzZHFqcy5jbg=="
-            }
-        },
-        {
             "key": "热播弹幕",
             "name": "热播｜弹幕",
             "type": 3,
@@ -71,7 +58,20 @@
             "filterable": 1,
             "ext": {
                 "danmu": true,
-                "site": "aHR0cDovL3YucmJvdHYuY24="
+                "site": "0"
+            }
+        },
+        {
+            "key": "天天弹幕",
+            "name": "天天｜弹幕",
+            "type": 3,
+            "api": "csp_TianTian",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": {
+                "danmu": true,
+                "site": "1"
             }
         },
         {
@@ -84,7 +84,7 @@
             "filterable": 1,
             "ext": {
                 "danmu": true,
-                "site": "aHR0cDovL3YubGt1eXMuY24="
+                "site": "2"
             }
         },
         {
@@ -98,6 +98,44 @@
             "ext": {
                 "danmu": true
             }
+        },
+        {
+            "key": "糯米弹幕",
+            "name": "糯米｜弹幕",
+            "type": 3,
+            "api": "csp_Nmys",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": {
+                "danmu": true
+            }
+        },
+        {
+            "key": "追剧仔弹幕",
+            "name": "追剧｜弹幕",
+            "type": 3,
+            "api": "csp_Zjz",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": {
+                "danmu": true
+            },
+            "timeout": 10
+        },
+        {
+            "key": "现代弹幕",
+            "name": "现代｜弹幕",
+            "type": 3,
+            "api": "csp_XianDai",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": {
+                "danmu": true
+            },
+            "timeout": 10
         },
         {
             "key": "哔哩弹幕",
@@ -186,39 +224,11 @@
             "ext": "./JS/米兔弹幕.js"
         },
         {
-            "key": "小熊弹幕",
-            "name": "小熊｜弹幕",
-            "type": 3,
-            "api": "./JS/drpy2.min.js",
-            "ext": "./JS/小熊弹幕.js"
-        },
-        {
-            "key": "巨人弹幕",
-            "name": "巨人｜弹幕",
-            "type": 3,
-            "api": "./JS/drpy2.min.js",
-            "ext": "./JS/巨人弹幕.js"
-        },
-        {
             "key": "追剧弹幕",
             "name": "追剧｜弹幕",
             "type": 3,
             "api": "./JS/drpy2.min.js",
             "ext": "./JS/追剧弹幕.js"
-        },
-        {
-            "key": "梦米弹幕",
-            "name": "梦米｜弹幕",
-            "type": 3,
-            "api": "./JS/drpy2.min.js",
-            "ext": "./JS/梦米弹幕.js"
-        },
-        {
-            "key": "小虎斑弹幕",
-            "name": "小虎斑｜弹幕",
-            "type": 3,
-            "api": "./JS/drpy2.min.js",
-            "ext": "./JS/小虎斑弹幕.js"
         },
         {
             "key": "三六零弹幕",
@@ -276,13 +286,6 @@
             "ext": "KhY021WelCEl+6MsvwnzaPussky/EAoc9z7C4keyHaEQ+sKbXhMKd83VjTL7Ls6+m7XDIcGdziOxPv79y/h4QCvmOEJmZ1VD6dopzAVxkFzEFw=="
         },
         {
-            "key": "吉吉短剧",
-            "name": "吉吉｜短剧",
-            "type": 3,
-            "api": "csp_XBPQ",
-            "ext": "./XBPQ/吉吉短剧.json"
-        },
-        {
             "key": "爱我短剧",
             "name": "爱我｜短剧",
             "type": 3,
@@ -319,16 +322,6 @@
             "filterable": 1
         },
         {
-            "key": "酷影视",
-            "name": "酷影视｜APP",
-            "type": 3,
-            "api": "csp_AppYsV2",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": "https://www.tvkuys.xyz/api.php/app/"
-        },
-        {
             "key": "HG影视",
             "name": "HG影视｜APP",
             "type": 3,
@@ -355,7 +348,7 @@
             "type": 3,
             "api": "csp_qiao2",
             "playerType": 2,
-            "ext": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1739517660808/cksp.txt"
+            "ext": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1740038979341/cksp.txt"
         },
         {
             "key": "木头",
@@ -369,15 +362,15 @@
             "key": "永夜",
             "name": "永夜｜App",
             "type": 3,
-            "api": "csp_Muou",
+            "api": "csp_QJMuou",
             "playerType": 2,
-            "ext": "caHR0cDovL2FwcC55aXlpNTIxLnRvcHxZSVlJ5b2x6KeGfDQuMS44"
+            "ext": "caHR0cDovL211b3UuNTZ1eGkuY29tfENvZmZlZTRLfDQuMS44"
         },
         {
             "key": "星河",
             "name": "星河｜APP",
             "type": 3,
-            "api": "csp_Muou",
+            "api": "csp_QJMuou",
             "playerType": 2,
             "ext": "caHR0cHM6Ly9odC5tb3liay5jbnzphZLlrqLlvbHop4Z8NC4xLjg="
         },
@@ -385,7 +378,7 @@
             "key": "二三",
             "name": "二三｜App",
             "type": 3,
-            "api": "csp_Muou",
+            "api": "csp_QJMuou",
             "playerType": 2,
             "ext": "caHR0cHM6Ly8xMjN5c3cuY29tfDIz5b2x6KeGfDQuMS44"
         },
@@ -419,7 +412,7 @@
             "type": 3,
             "api": "csp_Xdai",
             "playerType": 1,
-            "ext": "jaHR0cDovL3NkeXMudXMvc2QudHh0fDdmOWI0OWRhZjkyOGNjZTd8N2Y5YjQ5ZGFmOTI4Y2NlN3w0NDI="
+            "ext": "jaHR0cHM6Ly95b3V5b3V0dS0xMzE5MjA5NzQ4LmNvcy5hcC1jaGVuZ2R1Lm15cWNsb3VkLmNvbS93RjlvQTRmRDh4Rzh4RzVxLnR4dHxkUzl0WTVuSzR0WDlvSTFqfGRTOXRZNW5LNHRYOW9JMWp8NDQy"
         },
         {
             "key": "优质",
@@ -435,7 +428,7 @@
             "type": 3,
             "api": "csp_Xdai",
             "playerType": 2,
-            "ext": "saHR0cDovL3d3dy56amMuYXBwfGFiNGU5YTQyMTY3NWYxNGJ8YWI0ZTlhNDIxNjc1ZjE0Ynw0NDI="
+            "ext": "saHR0cDovL2hvc3QueXl5cy5uZXdzLzI1MDEyMy50eHR8UnVOOUxSdndUUmdwUW5wS3xSdU45TFJ2d1RSZ3BRbnBLfDU0Ng=="
         },
         {
             "key": "蝴蝶",
@@ -602,6 +595,14 @@
             "api": "csp_XiaoMaoApp"
         },
         {
+            "key": "小米良人",
+            "name": "良人｜APP",
+            "type": 3,
+            "searchable": 1,
+            "quickSearch": 1,
+            "api": "csp_LiangRenApp"
+        },
+        {
             "key": "西瓜视频",
             "name": "西瓜｜视频",
             "type": 3,
@@ -630,6 +631,14 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1
+        },
+        {
+            "key": "南瓜影视",
+            "name": "南瓜｜影视",
+            "type": 3,
+            "api": "csp_NanGua",
+            "playerType": 1,
+            "ext": "maHR0cDovL25nLmNoYW5nbWVuZ3l1bi5jb20="
         },
         {
             "key": "农民影视",
@@ -1127,6 +1136,7 @@
                 "token": "http://127.0.0.1:9978/file/TVBox/token.txt",
                 "cookie": "http://127.0.0.1:9978/file/TVBox/quark.txt",
                 "uc_cookie": "http://127.0.0.1:9978/file/TVBox/uc.txt",
+                "115_cookie": "http://127.0.0.1:9978/file/TVBox/115.txt",
                 "danmu": true
             }
         }
@@ -1285,121 +1295,7 @@
     ],
     "rules": [
         {
-            "name": "量子非凡广告",
-            "hosts": [
-                "lz",
-                "vip.lz",
-                "v.cdnlz",
-                "hd.lz",
-                "ffzy",
-                "vip.ffzy",
-                "hd.ffzy"
-            ],
-            "regex": [
-                "#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:6.666667,[\\s\\S]*?#EXT-X-DISCONTINUITY",
-                "#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:6.600000,[\\s\\S]*?#EXT-X-DISCONTINUITY"
-            ]
-        },
-        {
-            "name": "索尼广告",
-            "hosts": [
-                "suonizy",
-                "qrssv.com"
-            ],
-            "regex": [
-                "15.1666",
-                "15.2666"
-            ]
-        },
-        {
-            "name": "乐视广告",
-            "hosts": [
-                "leshiyun"
-            ],
-            "regex": [
-                "15.92"
-            ]
-        },
-        {
-            "name": "优质广告",
-            "hosts": [
-                "yzzy",
-                "playback"
-            ],
-            "regex": [
-                "16.63",
-                "18.66",
-                "17.66",
-                "19.13"
-            ]
-        },
-        {
-            "name": "快看广告",
-            "hosts": [
-                "kuaikan",
-                "vip.kuaikan"
-            ],
-            "regex": [
-                "15.32",
-                "15.231",
-                "18.066"
-            ]
-        },
-        {
-            "name": "360广告",
-            "hosts": [
-                "lyhuicheng"
-            ],
-            "regex": [
-                "#EXTINF.*?\\s+.*?hrz8QcR9.*?\\.ts\\s+",
-                "#EXT-X-KEY:METHOD=NONE[\\s\\S]*?#EXT-X-DISCONTINUITY"
-            ]
-        },
-        {
-            "name": "开源棋牌",
-            "hosts": [
-                "askzycdn",
-                "jkunbf",
-                "bfikuncdn",
-                "bfaskcdn"
-            ],
-            "regex": [
-                "#EXT-X-KEY:METHOD=NONE\\r*\\n*#EXTINF:5,[\\s\\S]*?#EXT-X-DISCONTINUITY",
-                "#EXT-X-KEY:METHOD=AES-128,URI=\"[^\"]+\"\\r*\\n*#EXTINF:3.333,[\\s\\S]*?#EXT-X-DISCONTINUITY"
-            ]
-        },
-        {
-            "name": "暴风广告",
-            "hosts": [
-                "bfengbf.com",
-                "bfzy",
-                "c1"
-            ],
-            "regex": [
-                "#EXTINF.*?\\s+.*?adjump.*?\\.ts\\s+",
-                "#EXT-X-DISCONTINUITY\r*\n*#EXTINF:3,[\\s\\S]*?#EXT-X-DISCONTINUITY"
-            ]
-        },
-        {
-            "name": "火山嗅探",
-            "hosts": [
-                "huoshan.com"
-            ],
-            "regex": [
-                "item_id="
-            ]
-        },
-        {
-            "name": "抖音嗅探",
-            "hosts": [
-                "douyin.com"
-            ],
-            "regex": [
-                "is_play_url="
-            ]
-        },
-        {
-            "name": "农民嗅探",
+            "name": "农民",
             "hosts": [
                 "toutiaovod.com"
             ],
@@ -1408,12 +1304,41 @@
             ]
         },
         {
+            "name": "火山",
+            "hosts": [
+                "huoshan.com"
+            ],
+            "regex": [
+                "item_id="
+            ]
+        },
+        {
+            "name": "抖音",
+            "hosts": [
+                "douyin.com"
+            ],
+            "regex": [
+                "is_play_url="
+            ]
+        },
+        {
             "name": "饭团点击",
             "hosts": [
-                "fantuan"
+                "dadagui",
+                "freeok",
+                "dadagui"
             ],
             "script": [
                 "document.querySelector(\"#playleft iframe\").contentWindow.document.querySelector(\"#start\").click();"
+            ]
+        },
+        {
+            "name": "毛驴点击",
+            "hosts": [
+                "www.maolvys.com"
+            ],
+            "script": [
+                "document.getElementsByClassName('swal-button swal-button--confirm')[0].click()"
             ]
         }
     ],
@@ -1463,12 +1388,34 @@
     ],
     "lives": [
         {
+            "name": "国内Live",
+            "type": 0,
+            "url": "http://127.0.0.1:9978/proxy?do=live&url=https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1740592110565/zq.fif.txt",
+            "playerType": 2,
+            "timeout": 10,
+            "catchup": {
+                "type": "append",
+                "source": "&starttime=${(b)yyyyMMdd'T'HHmm}00.00Z&endtime=${(e)yyyyMMdd'T'HHmm}00.00Z"
+            }
+        },
+        {
+            "name": "国内移动",
+            "type": 0,
+            "url": "http://127.0.0.1:9978/proxy?do=live&url=https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1739616589773/zq.txt",
+            "playerType": 2,
+            "timeout": 10,
+            "catchup": {
+                "type": "append",
+                "source": "&starttime=${(b)yyyyMMdd'T'HHmm}00.00Z&endtime=${(e)yyyyMMdd'T'HHmm}00.00Z"
+            }
+        },
+        {
             "name": "ITV",
             "type": 0,
             "url": "http://127.0.0.1:9978/file/TVBoxOSC/本地仓/ITV.txt",
             "epg": "http://epg.51zmt.top:8000/e.xml",
             "ua": "okhttp/3.15,AptvPlayer/1.4.0",
-            "timeout": "3",
+            "timeout": 3,
             "playerType": 2
         },
         {
@@ -1486,14 +1433,6 @@
         {
             "name": "AI直播",
             "type": 0,
-            "url": "https://ghproxy.net/raw.githubusercontent.com/PizazzGY/TV/master/output/user_result.txt",
-            "epg": "http://cdn.1678520.xyz/epg/?ch={name}&date={date}",
-            "playerType": 2,
-            "timeout": 10
-        },
-        {
-            "name": "AI直播+",
-            "type": 0,
             "url": "https://wget.la/https://raw.githubusercontent.com/PizazzGY/TV/master/output/user_result.txt",
             "epg": "http://cdn.1678520.xyz/epg/?ch={name}&date={date}",
             "playerType": 2,
@@ -1503,7 +1442,7 @@
             "name": "虎牙一起看",
             "type": 3,
             "api": "csp_Feiyang",
-            "url": "https://9877.kstore.space/Live/huyayqk.m3u",
+            "url": "huyayqk.m3u",
             "timeout": 10,
             "ua": "okhttp/3.15"
         },
@@ -1511,7 +1450,7 @@
             "name": "斗鱼一起看",
             "type": 3,
             "api": "csp_Feiyang",
-            "url": "https://9877.kstore.space/Live/douyuyqk.m3u",
+            "url": "douyuyqk.m3u",
             "timeout": 10,
             "ua": "okhttp/3.15"
         },
@@ -1519,7 +1458,7 @@
             "name": "YY轮播",
             "type": 3,
             "api": "csp_Feiyang",
-            "url": "https://9877.kstore.space/Live/yylunbo.m3u",
+            "url": "yylunbo.m3u",
             "timeout": 10,
             "ua": "okhttp/3.15"
         },
@@ -1543,9 +1482,20 @@
             "url": "https://live.fanmingming.cn/tv/m3u/ipv6.m3u",
             "playerType": 2,
             "timeout": 10
+        },
+        {
+            "name": "APTV",
+            "type": 0,
+            "url": "https://wget.la/https://github.com/Kimentanm/aptv/raw/master/m3u/iptv.m3u",
+            "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
+            "logo": "https://epg.iill.top/logo/{name}.png",
+            "ua": "okhttp/3.15,AptvPlayer/1.4.0",
+            "timeout": 10,
+            "playerType": 2
         }
     ],
     "hosts": [
+        "cache.ott.*.itv.cmvideo.cn=base-v4-free-mghy.e.cdn.chinamobile.com",
         "cache.ott.ystenlive.itv.cmvideo.cn=base-v4-free-mghy.e.cdn.chinamobile.com",
         "cache.ott.bestlive.itv.cmvideo.cn=base-v4-free-mghy.e.cdn.chinamobile.com",
         "cache.ott.wasulive.itv.cmvideo.cn=base-v4-free-mghy.e.cdn.chinamobile.com",
