@@ -141,34 +141,12 @@
     ],
     "lives": [
         {
-            "name": "国内Live",
-            "type": 0,
-            "url": "http://127.0.0.1:9978/proxy?do=live&url=https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1740592110565/zq.fif.txt",
-            "playerType": 2,
-            "timeout": 10,
-            "catchup": {
-                "type": "append",
-                "source": "&starttime=${(b)yyyyMMdd'T'HHmm}00.00Z&endtime=${(e)yyyyMMdd'T'HHmm}00.00Z"
-            }
-        },
-        {
-            "name": "国内移动",
-            "type": 0,
-            "url": "http://127.0.0.1:9978/proxy?do=live&url=https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1739616589773/zq.txt",
-            "playerType": 2,
-            "timeout": 10,
-            "catchup": {
-                "type": "append",
-                "source": "&starttime=${(b)yyyyMMdd'T'HHmm}00.00Z&endtime=${(e)yyyyMMdd'T'HHmm}00.00Z"
-            }
-        },
-        {
             "name": "ITV",
             "type": 0,
-            "url": "http://127.0.0.1:9978/file/TVBoxOSC/本地仓/ITV.txt",
+            "url": "https://9877.kstore.space/Live/ITV.txt",
             "epg": "http://epg.51zmt.top:8000/e.xml",
             "ua": "okhttp/3.15,AptvPlayer/1.4.0",
-            "timeout": 3,
+            "timeout": 5,
             "playerType": 2
         },
         {
@@ -195,7 +173,7 @@
             "name": "虎牙一起看",
             "type": 3,
             "api": "csp_Feiyang",
-            "url": "huyayqk.m3u",
+            "url": "https://9877.kstore.space/Live/huyayqk.m3u",
             "timeout": 10,
             "ua": "okhttp/3.15"
         },
@@ -203,7 +181,7 @@
             "name": "斗鱼一起看",
             "type": 3,
             "api": "csp_Feiyang",
-            "url": "douyuyqk.m3u",
+            "url": "https://9877.kstore.space/Live/douyuyqk.m3u",
             "timeout": 10,
             "ua": "okhttp/3.15"
         },
@@ -211,7 +189,7 @@
             "name": "YY轮播",
             "type": 3,
             "api": "csp_Feiyang",
-            "url": "yylunbo.m3u",
+            "url": "https://9877.kstore.space/Live/yylunbo.m3u",
             "timeout": 10,
             "ua": "okhttp/3.15"
         },
