@@ -47,8 +47,8 @@
             "quickSearch": 1,
             "filterable": 1,
             "ext": {
-                "cookie": "http://127.0.0.1:9978/file/TVBox/bilibili.txt",
-                "json": "./json/儿童拼音.json"
+                "json": "./json/儿童拼音.json",
+                "cookie": "http://127.0.0.1:9978/file/TVBox/bili_cookie.txt"
             },
             "style": {
                 "type": "rect",
@@ -64,8 +64,8 @@
             "quickSearch": 1,
             "filterable": 1,
             "ext": {
-                "cookie": "http://127.0.0.1:9978/file/TVBox/bilibili.txt",
-                "json": "./json/儿童识字.json"
+                "json": "./json/儿童识字.json",
+                "cookie": "http://127.0.0.1:9978/file/TVBox/bili_cookie.txt"
             },
             "style": {
                 "type": "rect",
@@ -81,8 +81,8 @@
             "quickSearch": 1,
             "filterable": 1,
             "ext": {
-                "cookie": "http://127.0.0.1:9978/file/TVBox/bilibili.txt",
-                "json": "./json/儿童英语.json"
+                "json": "./json/儿童英语.json",
+                "cookie": "http://127.0.0.1:9978/file/TVBox/bili_cookie.txt"
             },
             "style": {
                 "type": "rect",
@@ -98,8 +98,8 @@
             "quickSearch": 1,
             "filterable": 1,
             "ext": {
-                "cookie": "http://127.0.0.1:9978/file/TVBox/bilibili.txt",
-                "json": "./json/儿童硬笔.json"
+                "json": "./json/儿童硬笔.json",
+                "cookie": "http://127.0.0.1:9978/file/TVBox/bili_cookie.txt"
             },
             "style": {
                 "type": "rect",
@@ -115,8 +115,8 @@
             "quickSearch": 1,
             "filterable": 1,
             "ext": {
-                "cookie": "http://127.0.0.1:9978/file/TVBox/bilibili.txt",
-                "json": "./json/儿童思维.json"
+                "json": "./json/儿童思维.json",
+                "cookie": "http://127.0.0.1:9978/file/TVBox/bili_cookie.txt"
             },
             "style": {
                 "type": "rect",
@@ -132,8 +132,8 @@
             "quickSearch": 1,
             "filterable": 1,
             "ext": {
-                "cookie": "http://127.0.0.1:9978/file/TVBox/bilibili.txt",
-                "json": "./json/儿童口才.json"
+                "json": "./json/儿童口才.json",
+                "cookie": "http://127.0.0.1:9978/file/TVBox/bili_cookie.txt"
             },
             "style": {
                 "type": "rect",
@@ -149,8 +149,8 @@
             "quickSearch": 1,
             "filterable": 1,
             "ext": {
-                "cookie": "http://127.0.0.1:9978/file/TVBox/bilibili.txt",
-                "json": "./json/儿童编程.json"
+                "json": "./json/儿童编程.json",
+                "cookie": "http://127.0.0.1:9978/file/TVBox/bili_cookie.txt"
             },
             "style": {
                 "type": "rect",
@@ -166,8 +166,8 @@
             "quickSearch": 1,
             "filterable": 1,
             "ext": {
-                "cookie": "http://127.0.0.1:9978/file/TVBox/bilibili.txt",
-                "json": "./json/儿童武术.json"
+                "json": "./json/儿童武术.json",
+                "cookie": "http://127.0.0.1:9978/file/TVBox/bili_cookie.txt"
             },
             "style": {
                 "type": "rect",
@@ -183,8 +183,8 @@
             "quickSearch": 0,
             "filterable": 1,
             "ext": {
-                "cookie": "http://127.0.0.1:9978/file/TVBox/bilibili.txt",
-                "json": "./json/少儿教育.json"
+                "json": "./json/少儿教育.json",
+                "cookie": "http://127.0.0.1:9978/file/TVBox/bili_cookie.txt"
             },
             "style": {
                 "type": "rect",
@@ -200,8 +200,8 @@
             "quickSearch": 0,
             "filterable": 1,
             "ext": {
-                "cookie": "http://127.0.0.1:9978/file/TVBox/bilibili.txt",
-                "json": "./json/小学课堂.json"
+                "json": "./json/小学课堂.json",
+                "cookie": "http://127.0.0.1:9978/file/TVBox/bili_cookie.txt"
             },
             "style": {
                 "type": "rect",
@@ -217,8 +217,8 @@
             "quickSearch": 0,
             "filterable": 1,
             "ext": {
-                "cookie": "http://127.0.0.1:9978/file/TVBox/bilibili.txt",
-                "json": "./json/初中课堂.json"
+                "json": "./json/初中课堂.json",
+                "cookie": "http://127.0.0.1:9978/file/TVBox/bili_cookie.txt"
             },
             "style": {
                 "type": "rect",
@@ -234,8 +234,8 @@
             "quickSearch": 0,
             "filterable": 1,
             "ext": {
-                "cookie": "http://127.0.0.1:9978/file/TVBox/bilibili.txt",
-                "json": "./json/高中课堂.json"
+                "json": "./json/高中课堂.json",
+                "cookie": "http://127.0.0.1:9978/file/TVBox/bili_cookie.txt"
             },
             "style": {
                 "type": "rect",
@@ -251,8 +251,8 @@
             "quickSearch": 0,
             "filterable": 1,
             "ext": {
-                "cookie": "http://127.0.0.1:9978/file/TVBox/bilibili.txt",
-                "json": "./json/外语课堂.json"
+                "json": "./json/外语课堂.json",
+                "cookie": "http://127.0.0.1:9978/file/TVBox/bili_cookie.txt"
             },
             "style": {
                 "type": "rect",
@@ -268,8 +268,8 @@
             "quickSearch": 1,
             "filterable": 1,
             "ext": {
-                "cookie": "http://127.0.0.1:9978/file/TVBox/bilibili.txt",
-                "json": "./json/小灯塔百科.json"
+                "json": "./json/小灯塔百科.json",
+                "cookie": "http://127.0.0.1:9978/file/TVBox/bili_cookie.txt"
             },
             "style": {
                 "type": "rect",
@@ -285,8 +285,8 @@
             "quickSearch": 1,
             "filterable": 1,
             "ext": {
-                "cookie": "http://127.0.0.1:9978/file/TVBox/bilibili.txt",
-                "json": "./json/小灯塔科学.json"
+                "json": "./json/小灯塔科学.json",
+                "cookie": "http://127.0.0.1:9978/file/TVBox/bili_cookie.txt"
             },
             "style": {
                 "type": "rect",
@@ -302,8 +302,8 @@
             "quickSearch": 1,
             "filterable": 1,
             "ext": {
-                "cookie": "http://127.0.0.1:9978/file/TVBox/bilibili.txt",
-                "json": "./json/小灯塔地理.json"
+                "json": "./json/小灯塔地理.json",
+                "cookie": "http://127.0.0.1:9978/file/TVBox/bili_cookie.txt"
             },
             "style": {
                 "type": "rect",
@@ -319,8 +319,8 @@
             "quickSearch": 1,
             "filterable": 1,
             "ext": {
-                "cookie": "http://127.0.0.1:9978/file/TVBox/bilibili.txt",
-                "json": "./json/小灯塔国学.json"
+                "json": "./json/小灯塔国学.json",
+                "cookie": "http://127.0.0.1:9978/file/TVBox/bili_cookie.txt"
             },
             "style": {
                 "type": "rect",
@@ -336,8 +336,8 @@
             "quickSearch": 1,
             "filterable": 1,
             "ext": {
-                "cookie": "http://127.0.0.1:9978/file/TVBox/bilibili.txt",
-                "json": "./json/小灯塔人文.json"
+                "json": "./json/小灯塔人文.json",
+                "cookie": "http://127.0.0.1:9978/file/TVBox/bili_cookie.txt"
             },
             "style": {
                 "type": "rect",
@@ -361,13 +361,7 @@
             "api": "csp_Push",
             "searchable": 0,
             "filterable": 0,
-            "changeable": 0,
-            "ext": {
-                "token": "http://127.0.0.1:9978/file/TVBox/token.txt",
-                "cookie": "http://127.0.0.1:9978/file/TVBox/quark.txt",
-                "uc_cookie": "http://127.0.0.1:9978/file/TVBox/uc.txt",
-                "danmu": true
-            }
+            "changeable": 0
         }
     ],
     "doh": [
@@ -416,57 +410,12 @@
     ],
     "lives": [
         {
-            "name": "ITV",
-            "type": 0,
-            "url": "https://9877.kstore.space/Live/ITV.txt",
-            "epg": "http://epg.51zmt.top:8000/e.xml",
-            "ua": "okhttp/3.15,AptvPlayer/1.4.0",
-            "timeout": 5,
-            "playerType": 2
-        },
-        {
-            "name": "肥羊直播",
-            "type": 3,
-            "api": "csp_Feiyang",
-            "url": "https://9877.kstore.space/Live/live.m3u",
-            "timeout": 10,
-            "ua": "okhttp/3.15",
-            "catchup": {
-                "type": "append",
-                "source": "?livemode=4&starttime=${(b)yyyyMMdd'T'HHmm}00.00Z&endtime=${(e)yyyyMMdd'T'HHmm}00.00Z"
-            }
-        },
-        {
             "name": "AI直播",
             "type": 0,
-            "url": "https://wget.la/https://raw.githubusercontent.com/PizazzGY/TV/master/output/user_result.txt",
+            "url": "https://gh-proxy.com/https://raw.githubusercontent.com/PizazzGY/TV/master/output/user_result.txt",
             "epg": "http://cdn.1678520.xyz/epg/?ch={name}&date={date}",
             "playerType": 2,
             "timeout": 10
-        },
-        {
-            "name": "虎牙一起看",
-            "type": 3,
-            "api": "csp_Feiyang",
-            "url": "https://9877.kstore.space/Live/huyayqk.m3u",
-            "timeout": 10,
-            "ua": "okhttp/3.15"
-        },
-        {
-            "name": "斗鱼一起看",
-            "type": 3,
-            "api": "csp_Feiyang",
-            "url": "https://9877.kstore.space/Live/douyuyqk.m3u",
-            "timeout": 10,
-            "ua": "okhttp/3.15"
-        },
-        {
-            "name": "YY轮播",
-            "type": 3,
-            "api": "csp_Feiyang",
-            "url": "https://9877.kstore.space/Live/yylunbo.m3u",
-            "timeout": 10,
-            "ua": "okhttp/3.15"
         },
         {
             "name": "电视Live",
@@ -492,7 +441,7 @@
         {
             "name": "APTV",
             "type": 0,
-            "url": "https://wget.la/https://github.com/Kimentanm/aptv/raw/master/m3u/iptv.m3u",
+            "url": "https://gh-proxy.com/https://github.com/Kimentanm/aptv/raw/master/m3u/iptv.m3u",
             "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
             "logo": "https://epg.iill.top/logo/{name}.png",
             "ua": "okhttp/3.15,AptvPlayer/1.4.0",
