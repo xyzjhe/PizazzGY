@@ -262,13 +262,13 @@
             "filterable": 1,
             "changeable": 1,
             "style": {
-                "type": "rect",
+                "type": "list",
                 "ratio": 1.433
             },
             "ext": "./json/lj.json?"
         },
         {
-            "key": "概念",
+            "key": "海绵",
             "name": "海绵｜4K",
             "type": 3,
             "api": "csp_PanWebShareCloudHM",
@@ -277,7 +277,7 @@
             "filterable": 1,
             "changeable": 1,
             "style": {
-                "type": "rect",
+                "type": "list",
                 "ratio": 1.433
             },
             "ext": "./json/hm.json?"
@@ -292,7 +292,7 @@
             "filterable": 1,
             "changeable": 1,
             "style": {
-                "type": "rect",
+                "type": "list",
                 "ratio": 1.433
             },
             "ext": "./json/pan1.json?"
@@ -399,16 +399,40 @@
             "timeout": 10
         },
         {
+            "name": "虎牙一起看",
+            "type": 3,
+            "api": "csp_Feiyang",
+            "url": "https://9877.kstore.space/Live/huyayqk.m3u",
+            "timeout": 10,
+            "ua": "okhttp/3.15"
+        },
+        {
+            "name": "斗鱼一起看",
+            "type": 3,
+            "api": "csp_Feiyang",
+            "url": "https://9877.kstore.space/Live/douyuyqk.m3u",
+            "timeout": 10,
+            "ua": "okhttp/3.15"
+        },
+        {
+            "name": "YY轮播",
+            "type": 3,
+            "api": "csp_Feiyang",
+            "url": "https://9877.kstore.space/Live/yylunbo.m3u",
+            "timeout": 10,
+            "ua": "okhttp/3.15"
+        },
+        {
             "name": "电视Live",
             "type": 0,
-            "url": "http://127.0.0.1:9978/proxy?do=live&u=Gather",
+            "url": "https://tv.iill.top/m3u/Gather",
             "playerType": 2,
             "timeout": 10
         },
         {
             "name": "网络Live",
             "type": 0,
-            "url": "http://127.0.0.1:9978/proxy?do=live&url=https://tv.iill.top/m3u/Live",
+            "url": "https://tv.iill.top/m3u/Live",
             "playerType": 2,
             "timeout": 10
         },
