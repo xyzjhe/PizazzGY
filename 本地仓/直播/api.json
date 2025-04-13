@@ -7,8 +7,7 @@
             "key": "网络直播",
             "name": "网络｜直播",
             "type": 3,
-            "api": "csp_Living",
-            "searchable": 1
+            "api": "./py/网络直播.py"
         },
         {
             "key": "配置中心",
@@ -150,6 +149,14 @@
             "type": 3,
             "api": "csp_Feiyang",
             "url": "https://9877.kstore.space/Live/yylunbo.m3u",
+            "timeout": 10,
+            "ua": "okhttp/3.15"
+        },
+        {
+            "name": "B站直播",
+            "type": 3,
+            "api": "csp_Feiyang",
+            "url": "https://9877.kstore.space/Live/bilibili.m3u",
             "timeout": 10,
             "ua": "okhttp/3.15"
         },
