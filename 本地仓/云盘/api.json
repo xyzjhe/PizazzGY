@@ -133,17 +133,6 @@
             "ext": "./json/lb.json?"
         },
         {
-            "key": "小米",
-            "name": "小米｜4K弹幕",
-            "type": 3,
-            "api": "csp_PanWebShare",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "changeable": 1,
-            "ext": "./json/xm.json?"
-        },
-        {
             "key": "至臻",
             "name": "至臻｜4K弹幕",
             "type": 3,
@@ -408,6 +397,14 @@
             "name": "AI直播",
             "type": 0,
             "url": "https://gh-proxy.com/https://raw.githubusercontent.com/PizazzGY/TV/master/output/user_result.txt",
+            "epg": "http://cdn.1678520.xyz/epg/?ch={name}&date={date}",
+            "playerType": 2,
+            "timeout": 10
+        },
+        {
+            "name": "Guovin",
+            "type": 0,
+            "url": "https://gitee.com/mytv-android/iptv-api/raw/master/output/result.m3u",
             "epg": "http://cdn.1678520.xyz/epg/?ch={name}&date={date}",
             "playerType": 2,
             "timeout": 10

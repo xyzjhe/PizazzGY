@@ -92,13 +92,6 @@
             "ext": "./js/博看听书.js"
         },
         {
-            "key": "六月听书",
-            "name": "六月｜听书",
-            "type": 3,
-            "api": "./js/drpy2.min.js",
-            "ext": "./js/六月听书.js"
-        },
-        {
             "key": "爱上你听书网",
             "name": "爱上你｜听书",
             "type": 3,
@@ -434,6 +427,14 @@
             "name": "AI直播",
             "type": 0,
             "url": "https://gh-proxy.com/https://raw.githubusercontent.com/PizazzGY/TV/master/output/user_result.txt",
+            "epg": "http://cdn.1678520.xyz/epg/?ch={name}&date={date}",
+            "playerType": 2,
+            "timeout": 10
+        },
+        {
+            "name": "Guovin",
+            "type": 0,
+            "url": "https://gitee.com/mytv-android/iptv-api/raw/master/output/result.m3u",
             "epg": "http://cdn.1678520.xyz/epg/?ch={name}&date={date}",
             "playerType": 2,
             "timeout": 10
