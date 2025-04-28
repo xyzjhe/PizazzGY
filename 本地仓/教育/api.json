@@ -414,7 +414,13 @@
             "type": 0,
             "url": "https://gh-proxy.com/https://raw.githubusercontent.com/PizazzGY/TV/master/output/user_result.txt",
             "epg": "http://cdn.1678520.xyz/epg/?ch={name}&date={date}",
-            "playerType": 2,
+            "timeout": 10
+        },
+        {
+            "name": "AI直播+",
+            "type": 0,
+            "url": "https://gh-proxy.com/https://raw.githubusercontent.com/PizazzGY/TV/master/output/user_result.m3u",
+            "epg": "http://cdn.1678520.xyz/epg/?ch={name}&date={date}",
             "timeout": 10
         },
         {
@@ -422,14 +428,19 @@
             "type": 0,
             "url": "https://gitee.com/mytv-android/iptv-api/raw/master/output/result.m3u",
             "epg": "http://cdn.1678520.xyz/epg/?ch={name}&date={date}",
-            "playerType": 2,
+            "timeout": 10
+        },
+        {
+            "name": "咪咕直播",
+            "type": 0,
+            "url": "https://yun.urldwz.com/f/Q6y3ca/migu.m3u",
             "timeout": 10
         },
         {
             "name": "虎牙一起看",
             "type": 3,
             "api": "csp_Feiyang",
-            "url": "https://9877.kstore.space/Live/huyayqk.m3u",
+            "url": "https://yun.urldwz.com/f/BE9PSL/huyayqk.m3u",
             "timeout": 10,
             "ua": "okhttp/3.15"
         },
@@ -437,7 +448,7 @@
             "name": "斗鱼一起看",
             "type": 3,
             "api": "csp_Feiyang",
-            "url": "https://9877.kstore.space/Live/douyuyqk.m3u",
+            "url": "https://yun.urldwz.com/f/NR9qiA/douyuyqk.m3u",
             "timeout": 10,
             "ua": "okhttp/3.15"
         },
@@ -445,7 +456,7 @@
             "name": "YY轮播",
             "type": 3,
             "api": "csp_Feiyang",
-            "url": "https://9877.kstore.space/Live/yylunbo.m3u",
+            "url": "https://yun.urldwz.com/f/dlkycZ/yylunbo.m3u",
             "timeout": 10,
             "ua": "okhttp/3.15"
         },
@@ -453,7 +464,7 @@
             "name": "B站直播",
             "type": 3,
             "api": "csp_Feiyang",
-            "url": "https://9877.kstore.space/Live/bilibili.m3u",
+            "url": "https://yun.urldwz.com/f/9XBkHK/bilibili.m3u",
             "timeout": 10,
             "ua": "okhttp/3.15"
         },
@@ -475,7 +486,6 @@
             "name": "范明明",
             "type": 0,
             "url": "https://live.fanmingming.cn/tv/m3u/ipv6.m3u",
-            "playerType": 2,
             "timeout": 10
         },
         {
@@ -485,8 +495,7 @@
             "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
             "logo": "https://epg.iill.top/logo/{name}.png",
             "ua": "okhttp/3.15,AptvPlayer/1.4.0",
-            "timeout": 10,
-            "playerType": 2
+            "timeout": 10
         }
     ],
     "hosts": [
