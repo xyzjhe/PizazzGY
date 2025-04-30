@@ -98,20 +98,6 @@
             }
         },
         {
-            "key": "时常",
-            "name": "时常｜APP",
-            "type": 3,
-            "quickSearch": 1,
-            "api": "csp_AppGet",
-            "ext": {
-                "url": "http://111.180.198.40:1110",
-                "dataKey": "asgcxhjkts124573",
-                "dataIv": "asgcxhjkts124573",
-                "deviceId": "",
-                "version": "101"
-            }
-        },
-        {
             "key": "雨滴",
             "name": "雨滴｜APP",
             "type": 3,
@@ -188,16 +174,30 @@
             "quickSearch": 1,
             "api": "csp_AppGet",
             "ext": {
-                "url": "http://59.153.167.137:8899",
-                "dataKey": "4d83b87c4c5ea111",
-                "dataIv": "4d83b87c4c5ea111",
-                "deviceId": "",
-                "version": "462"
+                "url": "https://c8k2n5l0i9s8b2m1jj8k2x2l9ff68.ydysapi.cfd:27899",
+                "dataKey": "k9o3p2c8b7m3z0o8",
+                "dataIv": "k9o3p2c8b7m3z0o8",
+                "deviceId": "2f085931bcbd83a2bbc8ba1fc66243cd2",
+                "version": "112"
             }
         },
         {
-            "key": "格格",
-            "name": "格格｜APP",
+            "key": "人人",
+            "name": "人人｜APP",
+            "type": 3,
+            "quickSearch": 1,
+            "api": "csp_AppGet",
+            "ext": {
+                "url": "https://svip1.fun",
+                "dataKey": "laodiesdawsswasd",
+                "dataIv": "laodiesdawsswasd",
+                "deviceId": "298e5fe29c74b35aabb9836ee2f6f449f",
+                "version": "105"
+            }
+        },
+        {
+            "key": "电影",
+            "name": "电影｜APP",
             "type": 3,
             "quickSearch": 1,
             "api": "csp_AppGet",
@@ -205,8 +205,8 @@
                 "url": "http://111.180.198.40:1110",
                 "dataKey": "asgcxhjkts124573",
                 "dataIv": "asgcxhjkts124573",
-                "deviceId": "",
-                "version": "119"
+                "deviceId": "298e5fe29c74b35aabb9836ee2f6f449f",
+                "version": "701"
             }
         },
         {
@@ -337,20 +337,6 @@
             "ext": {
                 "json": "./json/哔哩合集.json",
                 "cookie": "http://127.0.0.1:9978/file/TVBox/bili_cookie.txt"
-            }
-        },
-        {
-            "key": "西瓜视频",
-            "name": "西瓜｜视频",
-            "type": 3,
-            "api": "csp_AmuXiguaV2",
-            "searchable": 1,
-            "quickSearch": 0,
-            "filterable": 0,
-            "changeable": 0,
-            "style": {
-                "type": "rect",
-                "ratio": 1.597
             }
         },
         {
@@ -732,22 +718,6 @@
             "playerType": 2
         },
         {
-            "key": "二三",
-            "name": "二三｜影视",
-            "type": 3,
-            "api": "csp_Muou",
-            "playerType": 2,
-            "ext": "caHR0cHM6Ly8xMjN5c3cuY29tfDIz5b2x6KeGfDQuMS44"
-        },
-        {
-            "key": "蝴蝶",
-            "name": "蝴蝶｜影视",
-            "type": 3,
-            "api": "csp_Hudie",
-            "playerType": 2,
-            "ext": "eaHR0cHM6Ly9kLmRjbW92aWUudG9w"
-        },
-        {
             "key": "快看",
             "name": "快看｜影视",
             "type": 3,
@@ -863,6 +833,21 @@
             "ext": "https://www.subaibai.com"
         },
         {
+            "key": "流光影视",
+            "name": "️流光｜影视",
+            "type": 3,
+            "quickSearch": 1,
+            "api": "csp_FreeOk"
+        },
+        {
+            "key": "农民影视",
+            "name": "农民｜影视",
+            "type": 3,
+            "quickSearch": 1,
+            "api": "csp_Wwys",
+            "ext": "https://www.wwgz.cn"
+        },
+        {
             "key": "低端影视",
             "name": "低端｜影视",
             "type": 3,
@@ -913,34 +898,6 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1
-        },
-        {
-            "key": "农民影视",
-            "name": "农民｜影视",
-            "type": 3,
-            "api": "csp_XBPQ",
-            "ext": "./XBPQ/农民影视.json"
-        },
-        {
-            "key": "秀儿影视",
-            "name": "秀儿｜影视",
-            "type": 3,
-            "api": "csp_XBPQ",
-            "ext": "./XBPQ/秀儿影视.json"
-        },
-        {
-            "key": "小枫影视",
-            "name": "小枫｜影视",
-            "type": 3,
-            "api": "csp_XBPQ",
-            "ext": "./XBPQ/小枫影视.json"
-        },
-        {
-            "key": "奇迹影视",
-            "name": "奇迹｜影视",
-            "type": 3,
-            "api": "csp_XBPQ",
-            "ext": "./XBPQ/奇迹影视.json"
         },
         {
             "key": "可可影视",
@@ -1021,13 +978,6 @@
             "ext": "./js/思古影视.js"
         },
         {
-            "key": "追剧影视",
-            "name": "追剧｜影视",
-            "type": 3,
-            "api": "./js/drpy2.min.js",
-            "ext": "./js/追剧视频.js"
-        },
-        {
             "key": "魔力高清",
             "name": "魔力｜影视",
             "type": 3,
@@ -1060,26 +1010,6 @@
             "quickSearch": 1,
             "filterable": 1,
             "ext": "./XYQHiker/盒子影视.json"
-        },
-        {
-            "key": "九八影视",
-            "name": "九八｜影视",
-            "type": 3,
-            "api": "csp_XYQHiker",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": "./XYQHiker/九八影视.json"
-        },
-        {
-            "key": "看看影视",
-            "name": "看看｜影视",
-            "type": 3,
-            "api": "csp_XYQHiker",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": "./XYQHiker/看看影视.json"
         },
         {
             "key": "骚火影视",
