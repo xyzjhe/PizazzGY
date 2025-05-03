@@ -80,6 +80,20 @@
             }
         },
         {
+            "key": "米饭动漫",
+            "name": "米饭｜动漫",
+            "type": 3,
+            "quickSearch": 1,
+            "api": "csp_AppGet",
+            "ext": {
+                "url": "http://45.43.29.111:9527",
+                "dataKey": "GETMIFUNGEIMIFUN",
+                "dataIv": "GETMIFUNGEIMIFUN",
+                "deviceId": "",
+                "version": ""
+            }
+        },
+        {
             "key": "动画片",
             "name": "动画片｜动漫",
             "type": 3,
@@ -455,13 +469,6 @@
             "name": "AI直播",
             "type": 0,
             "url": "https://gh-proxy.com/https://raw.githubusercontent.com/PizazzGY/TV/master/output/user_result.txt",
-            "epg": "http://cdn.1678520.xyz/epg/?ch={name}&date={date}",
-            "timeout": 10
-        },
-        {
-            "name": "AI直播+",
-            "type": 0,
-            "url": "https://gh-proxy.com/https://raw.githubusercontent.com/PizazzGY/TV/master/output/user_result.m3u",
             "epg": "http://cdn.1678520.xyz/epg/?ch={name}&date={date}",
             "timeout": 10
         },
