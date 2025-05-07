@@ -95,7 +95,7 @@
             "key": "短剧合集",
             "name": "短剧｜合集",
             "type": 3,
-            "api": "./js/quark.min.js",
+            "api": "./js/cloud.min.js",
             "ext": "./js/短剧合集.js",
             "style": {
                 "type": "list"
@@ -105,7 +105,7 @@
             "key": "短剧大全",
             "name": "短剧｜大全",
             "type": 3,
-            "api": "./js/quark.min.js",
+            "api": "./js/cloud.min.js",
             "ext": "./js/短剧大全.js",
             "style": {
                 "type": "list"
@@ -253,7 +253,7 @@
         },
         {
             "key": "雷鲸",
-            "name": "雷鲸｜4K",
+            "name": "雷鲸｜4K弹幕",
             "type": 3,
             "api": "csp_PanWebShareCloudLJ",
             "searchable": 1,
@@ -268,7 +268,7 @@
         },
         {
             "key": "海绵",
-            "name": "海绵｜4K",
+            "name": "海绵｜4K弹幕",
             "type": 3,
             "api": "csp_PanWebShareCloudHM",
             "searchable": 1,
@@ -283,7 +283,7 @@
         },
         {
             "key": "Pan1",
-            "name": "123｜4K",
+            "name": "123｜4K弹幕",
             "type": 3,
             "api": "csp_PanWebShareCloud123",
             "searchable": 1,
@@ -298,7 +298,7 @@
         },
         {
             "key": "夸父",
-            "name": "夸父｜4K",
+            "name": "夸父｜4K弹幕",
             "type": 3,
             "api": "csp_PanWebShareCloudKF",
             "searchable": 1,
@@ -313,12 +313,13 @@
         },
         {
             "key": "趣盘",
-            "name": "趣盘｜4K",
+            "name": "趣盘｜4K弹幕",
             "type": 3,
             "api": "csp_PanWebQu",
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
+            "changeable": 1,
             "style": {
                 "type": "list",
                 "ratio": 1.433
@@ -329,12 +330,13 @@
         },
         {
             "key": "聚搜",
-            "name": "聚搜｜4K",
+            "name": "聚搜｜4K弹幕",
             "type": 3,
             "api": "csp_PanWebSearch",
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
+            "changeable": 1,
             "style": {
                 "type": "list",
                 "ratio": 1.433
@@ -343,14 +345,25 @@
         },
         {
             "key": "盘库",
-            "name": "盘库｜4K",
+            "name": "盘库｜4K弹幕",
             "type": 3,
             "api": "csp_PanWebKuBa",
             "searchable": 1,
-            "filterable": 0,
-            "changeable": 0,
+            "quickSearch": 1,
+            "filterable": 1,
+            "changeable": 1,
             "ext": {
-                "url": "https://panku8.com"
+                "url": "https://panku8.com,https://yipanso.com"
+            }
+        },
+        {
+            "key": "双星",
+            "name": "双星｜4K弹幕",
+            "type": 3,
+            "api": "./js/cloud.min.js",
+            "ext": "./js/双星.js",
+            "style": {
+                "type": "list"
             }
         },
         {
@@ -361,7 +374,7 @@
             "searchable": 0,
             "changeable": 0,
             "indexs": 0,
-            "ext": "https://9877.kstore.space/Market/market.json"
+            "ext": "https://9877.kstore.space/Market/multi.json"
         },
         {
             "key": "push_agent",
