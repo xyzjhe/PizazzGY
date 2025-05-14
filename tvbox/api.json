@@ -84,8 +84,30 @@
             }
         },
         {
-            "key": "尼玛",
-            "name": "尼玛｜APP",
+            "key": "移动",
+            "name": "移动｜APP",
+            "type": 3,
+            "api": "csp_YD",
+            "searchable": 1,
+            "quickSearch": 1
+        },
+        {
+            "key": "集多",
+            "name": "集多｜APP",
+            "type": 3,
+            "quickSearch": 1,
+            "api": "csp_AppGet",
+            "ext": {
+                "url": "http://220.231.146.94:6261",
+                "dataKey": "hL7xN4P9rS2vK5Mq",
+                "dataIv": "hL7xN4P9rS2vK5Mq",
+                "deviceId": "",
+                "version": "200"
+            }
+        },
+        {
+            "key": "牛马",
+            "name": "牛马｜APP",
             "type": 3,
             "quickSearch": 1,
             "api": "csp_AppGet",
@@ -606,6 +628,17 @@
             "ext": "./json/xf.json"
         },
         {
+            "key": "奥秘",
+            "name": "奥秘｜4K弹幕",
+            "type": 3,
+            "api": "csp_PanWebShare",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "changeable": 1,
+            "ext": "./json/am.json"
+        },
+        {
             "key": "团长",
             "name": "团长｜4K弹幕",
             "type": 3,
@@ -834,17 +867,6 @@
             "playerType": 2
         },
         {
-            "key": "火车影视",
-            "name": "火车｜影视",
-            "type": 3,
-            "api": "./py/火车影视.py",
-            "searchable": 1,
-            "changeable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "playerType": 2
-        },
-        {
             "key": "美帕影视",
             "name": "美帕｜影视",
             "type": 3,
@@ -876,14 +898,6 @@
             "filterable": 1,
             "changeable": 1,
             "ext": "http://kkwk123.top/api.php/app/"
-        },
-        {
-            "key": "移动",
-            "name": "移动｜影视",
-            "type": 3,
-            "api": "csp_YD",
-            "searchable": 1,
-            "quickSearch": 1
         },
         {
             "key": "厂长影视",
