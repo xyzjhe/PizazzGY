@@ -378,6 +378,16 @@
             }
         },
         {
+            "key": "懒盘",
+            "name": "懒盘｜4K弹幕",
+            "type": 3,
+            "api": "./js/cloud.min.js",
+            "ext": "./js/懒盘.js",
+            "style": {
+                "type": "list"
+            }
+        },
+        {
             "key": "版本信息",
             "name": "版本｜信息",
             "type": 3,
