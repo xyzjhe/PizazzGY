@@ -59,20 +59,6 @@
             "ext": "./js/蜻蜓FM.js"
         },
         {
-            "key": "老白听书",
-            "name": "老白｜听书",
-            "type": 3,
-            "api": "csp_BookLaoBai",
-            "searchable": 1,
-            "quickSearch": 0,
-            "changeable": 0,
-            "style": {
-                "type": "rect",
-                "ratio": 1.433
-            },
-            "ext": "https://apk-lb-json.fodexin.com##"
-        },
-        {
             "key": "六月听书",
             "name": "六月｜听书",
             "type": 3,
@@ -114,7 +100,7 @@
         },
         {
             "key": "哔哩哔哩演唱会",
-            "name": "演唱会｜哔哩",
+            "name": "哔哩｜音乐",
             "type": 3,
             "api": "csp_Bili",
             "searchable": 0,
@@ -131,7 +117,7 @@
         },
         {
             "key": "哔哩哔哩听书",
-            "name": "听书｜哔哩",
+            "name": "哔哩｜听书",
             "type": 3,
             "api": "csp_Bili",
             "searchable": 0,
@@ -148,7 +134,7 @@
         },
         {
             "key": "哔哩哔哩相声",
-            "name": "相声｜哔哩",
+            "name": "哔哩｜相声",
             "type": 3,
             "api": "csp_Bili",
             "searchable": 0,
@@ -165,7 +151,7 @@
         },
         {
             "key": "哔哩哔哩小品",
-            "name": "小品｜哔哩",
+            "name": "哔哩｜小品",
             "type": 3,
             "api": "csp_Bili",
             "searchable": 0,
@@ -182,7 +168,7 @@
         },
         {
             "key": "哔哩哔哩戏曲",
-            "name": "戏曲｜哔哩",
+            "name": "哔哩｜戏曲",
             "type": 3,
             "api": "csp_Bili",
             "searchable": 0,
@@ -219,6 +205,17 @@
                 "ratio": 3.8
             },
             "gridview": "0-0-4.1"
+        },
+        {
+            "key": "养生堂",
+            "name": "养生｜知识",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "ext": "./json/养生堂.json",
+            "style": {
+                "type": "rect",
+                "ratio": 1.597
+            }
         },
         {
             "key": "版本信息",
