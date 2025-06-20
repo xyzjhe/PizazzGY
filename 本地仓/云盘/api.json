@@ -336,34 +336,72 @@
             }
         },
         {
-            "key": "爱搜UC",
+            "key": "百酷",
+            "name": "百酷｜4K弹幕",
+            "type": 3,
+            "api": "./js/cloud.min.js",
+            "ext": "./js/百酷.js",
+            "style": {
+                "type": "list"
+            }
+        },
+        {
+            "key": "校长",
+            "name": "校长｜4K弹幕",
+            "type": 3,
+            "api": "./js/cloud.min.js",
+            "ext": "./js/校长.js",
+            "style": {
+                "type": "list"
+            }
+        },
+        {
+            "key": "人人电影网",
+            "name": "人人｜4K弹幕",
+            "type": 3,
+            "api": "./js/cloud.min.js",
+            "ext": "./js/人人电影网.js",
+            "style": {
+                "type": "list"
+            }
+        },
+        {
+            "key": "爱UC",
             "name": "爱UC｜4K弹幕",
             "type": 3,
             "api": "./js/cloud.min.js",
-            "ext": "./js/爱搜UC.js",
+            "ext": "./js/爱UC.js",
             "style": {
                 "type": "list"
             }
         },
         {
-            "key": "爱搜Quark",
+            "key": "爱Quark",
             "name": "爱Quark｜4K弹幕",
             "type": 3,
             "api": "./js/cloud.min.js",
-            "ext": "./js/爱搜Quark.js",
+            "ext": "./js/爱Quark.js",
             "style": {
                 "type": "list"
             }
         },
         {
-            "key": "爱搜Baidu",
+            "key": "爱Baidu",
             "name": "爱Baidu｜4K弹幕",
             "type": 3,
             "api": "./js/cloud.min.js",
-            "ext": "./js/爱搜Baidu.js",
+            "ext": "./js/爱Baidu.js",
             "style": {
                 "type": "list"
             }
+        },
+        {
+            "key": "糖果",
+            "name": "糖果｜搜索",
+            "type": 3,
+            "api": "csp_TGSou",
+            "searchable": 1,
+            "changeable": 0
         },
         {
             "key": "聚搜",
@@ -390,7 +428,7 @@
             "name": "人人｜搜索",
             "type": 3,
             "api": "./js/cloud.min.js",
-            "ext": "./js/人人.js",
+            "ext": "./js/人人分享站.js",
             "style": {
                 "type": "list"
             }
