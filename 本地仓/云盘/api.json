@@ -356,6 +356,16 @@
             }
         },
         {
+            "key": "天堂",
+            "name": "天堂｜4K弹幕",
+            "type": 3,
+            "api": "./js/cloud.min.js",
+            "ext": "./js/天堂.js",
+            "style": {
+                "type": "list"
+            }
+        },
+        {
             "key": "人人电影网",
             "name": "人人｜4K弹幕",
             "type": 3,
@@ -366,31 +376,11 @@
             }
         },
         {
-            "key": "爱UC",
-            "name": "爱UC｜4K弹幕",
+            "key": "爱搜",
+            "name": "爱搜｜4K弹幕",
             "type": 3,
             "api": "./js/cloud.min.js",
-            "ext": "./js/爱UC.js",
-            "style": {
-                "type": "list"
-            }
-        },
-        {
-            "key": "爱Quark",
-            "name": "爱Quark｜4K弹幕",
-            "type": 3,
-            "api": "./js/cloud.min.js",
-            "ext": "./js/爱Quark.js",
-            "style": {
-                "type": "list"
-            }
-        },
-        {
-            "key": "爱Baidu",
-            "name": "爱Baidu｜4K弹幕",
-            "type": 3,
-            "api": "./js/cloud.min.js",
-            "ext": "./js/爱Baidu.js",
+            "ext": "./js/爱搜.js",
             "style": {
                 "type": "list"
             }
