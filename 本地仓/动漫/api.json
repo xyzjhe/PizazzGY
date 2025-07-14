@@ -55,7 +55,8 @@
             "quickSearch": 1,
             "api": "csp_AppGet",
             "ext": {
-                "url": "https://pzoap.moedot.net",
+                "url": "",
+                "site": "https://xfapp-1305390065.cos.ap-guangzhou.myqcloud.com/getapp.txt",
                 "dataKey": "1yZ2Spn9krnzVKoC",
                 "dataIv": "1yZ2Spn9krnzVKoC",
                 "deviceId": "",
@@ -91,6 +92,62 @@
             }
         },
         {
+            "key": "次元动漫",
+            "name": "次元｜动漫",
+            "type": 3,
+            "quickSearch": 1,
+            "api": "csp_AppGet",
+            "ext": {
+                "url": "https://jjjj.nilinili.org",
+                "dataKey": "672263e98f232a05",
+                "dataIv": "672263e98f232a05",
+                "deviceId": "",
+                "version": "170"
+            }
+        },
+        {
+            "key": "派对动漫",
+            "name": "派对｜动漫",
+            "type": 3,
+            "quickSearch": 1,
+            "api": "csp_AppGet",
+            "ext": {
+                "url": "https://qjappcms.acg.party",
+                "dataKey": "AmtMYFCJDPoTlK7z",
+                "dataIv": "AmtMYFCJDPoTlK7z",
+                "deviceId": "",
+                "version": ""
+            }
+        },
+        {
+            "key": "丫丫",
+            "name": "丫丫｜APP",
+            "type": 3,
+            "quickSearch": 1,
+            "api": "csp_AppGet",
+            "ext": {
+                "url": "http://tv.yy-fun.cc",
+                "dataKey": "qkxnwkfjwpcnwycl",
+                "dataIv": "qkxnwkfjwpcnwycl",
+                "deviceId": "",
+                "version": ""
+            }
+        },
+        {
+            "key": "黑猫动漫",
+            "name": "黑猫｜动漫",
+            "type": 3,
+            "quickSearch": 1,
+            "api": "csp_AppGet",
+            "ext": {
+                "url": "https://dm.xxdm123.top:9991",
+                "dataKey": "0fe3b5781782c621",
+                "dataIv": "0fe3b5781782c621",
+                "deviceId": "",
+                "version": "203"
+            }
+        },
+        {
             "key": "樱花动漫",
             "name": "樱花｜动漫",
             "type": 3,
@@ -117,13 +174,6 @@
             "type": 3,
             "api": "./js/drpy2.min.js",
             "ext": "./js/奇米动漫.js"
-        },
-        {
-            "key": "怡萱动漫",
-            "name": "怡萱｜动漫",
-            "type": 3,
-            "api": "./js/drpy2.min.js",
-            "ext": "./js/怡萱动漫.js"
         },
         {
             "key": "花子动漫",
@@ -419,38 +469,6 @@
             "url": "https://gitee.com/mytv-android/iptv-api/raw/master/output/result.m3u",
             "epg": "http://cdn.1678520.xyz/epg/?ch={name}&date={date}",
             "timeout": 10
-        },
-        {
-            "name": "虎牙一起看",
-            "type": 3,
-            "api": "csp_Feiyang",
-            "url": "https://yun.urldwz.com/f/BE9PSL/huyayqk.m3u",
-            "timeout": 10,
-            "ua": "okhttp/3.15"
-        },
-        {
-            "name": "斗鱼一起看",
-            "type": 3,
-            "api": "csp_Feiyang",
-            "url": "https://yun.urldwz.com/f/NR9qiA/douyuyqk.m3u",
-            "timeout": 10,
-            "ua": "okhttp/3.15"
-        },
-        {
-            "name": "YY轮播",
-            "type": 3,
-            "api": "csp_Feiyang",
-            "url": "https://yun.urldwz.com/f/dlkycZ/yylunbo.m3u",
-            "timeout": 10,
-            "ua": "okhttp/3.15"
-        },
-        {
-            "name": "B站直播",
-            "type": 3,
-            "api": "csp_Feiyang",
-            "url": "https://yun.urldwz.com/f/9XBkHK/bilibili.m3u",
-            "timeout": 10,
-            "ua": "okhttp/3.15"
         },
         {
             "name": "电视Live",

@@ -425,38 +425,6 @@
             "timeout": 10
         },
         {
-            "name": "虎牙一起看",
-            "type": 3,
-            "api": "csp_Feiyang",
-            "url": "https://yun.urldwz.com/f/BE9PSL/huyayqk.m3u",
-            "timeout": 10,
-            "ua": "okhttp/3.15"
-        },
-        {
-            "name": "斗鱼一起看",
-            "type": 3,
-            "api": "csp_Feiyang",
-            "url": "https://yun.urldwz.com/f/NR9qiA/douyuyqk.m3u",
-            "timeout": 10,
-            "ua": "okhttp/3.15"
-        },
-        {
-            "name": "YY轮播",
-            "type": 3,
-            "api": "csp_Feiyang",
-            "url": "https://yun.urldwz.com/f/dlkycZ/yylunbo.m3u",
-            "timeout": 10,
-            "ua": "okhttp/3.15"
-        },
-        {
-            "name": "B站直播",
-            "type": 3,
-            "api": "csp_Feiyang",
-            "url": "https://yun.urldwz.com/f/9XBkHK/bilibili.m3u",
-            "timeout": 10,
-            "ua": "okhttp/3.15"
-        },
-        {
             "name": "电视Live",
             "type": 0,
             "url": "https://tv.iill.top/m3u/Gather",

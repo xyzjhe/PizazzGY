@@ -27,9 +27,7 @@
             "key": "荐片",
             "name": "荐片｜磁力",
             "api": "csp_Jianpian",
-            "type": 3,
-            "playerType": 1,
-            "ext": "http://api2.rinhome.com"
+            "type": 3
         },
         {
             "key": "修罗影视",
@@ -119,16 +117,6 @@
             "ext": "./XBPQ/狐狸君.json"
         },
         {
-            "key": "布谷TV",
-            "name": "布谷TV｜磁力",
-            "type": 3,
-            "api": "csp_HBPQ",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": "./XBPQ/布谷TV.json"
-        },
-        {
             "key": "BT天堂",
             "name": "BT天堂｜磁力",
             "type": 3,
@@ -143,15 +131,6 @@
             "name": "Mp4电影｜磁力",
             "type": 3,
             "api": "csp_Mp4Mov",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1
-        },
-        {
-            "key": "酷吧电影",
-            "name": "酷吧电影｜磁力",
-            "type": 3,
-            "api": "csp_KubaCL",
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1
@@ -281,38 +260,6 @@
             "url": "https://gitee.com/mytv-android/iptv-api/raw/master/output/result.m3u",
             "epg": "http://cdn.1678520.xyz/epg/?ch={name}&date={date}",
             "timeout": 10
-        },
-        {
-            "name": "虎牙一起看",
-            "type": 3,
-            "api": "csp_Feiyang",
-            "url": "https://yun.urldwz.com/f/BE9PSL/huyayqk.m3u",
-            "timeout": 10,
-            "ua": "okhttp/3.15"
-        },
-        {
-            "name": "斗鱼一起看",
-            "type": 3,
-            "api": "csp_Feiyang",
-            "url": "https://yun.urldwz.com/f/NR9qiA/douyuyqk.m3u",
-            "timeout": 10,
-            "ua": "okhttp/3.15"
-        },
-        {
-            "name": "YY轮播",
-            "type": 3,
-            "api": "csp_Feiyang",
-            "url": "https://yun.urldwz.com/f/dlkycZ/yylunbo.m3u",
-            "timeout": 10,
-            "ua": "okhttp/3.15"
-        },
-        {
-            "name": "B站直播",
-            "type": 3,
-            "api": "csp_Feiyang",
-            "url": "https://yun.urldwz.com/f/9XBkHK/bilibili.m3u",
-            "timeout": 10,
-            "ua": "okhttp/3.15"
         },
         {
             "name": "电视Live",
